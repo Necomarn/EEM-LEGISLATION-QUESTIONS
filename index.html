@@ -3,255 +3,2439 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>EEM CoC Legislation Exam References</title>
-  <meta name="description" content="Electrical Engineering Manager Certificate of Competency legislation exam reference PDFs.">
+  <title>EEM CoC Legislation Questions</title>
+  <meta name="description" content="Web version of EEM CoC legislation exam reference material for Surface and Underground EEM.">
   <style>
     :root {
-      color-scheme: light;
-      --bg: #f6f8fb;
+      --bg: #f4f7fb;
+      --ink: #102033;
+      --muted: #607086;
       --panel: #ffffff;
-      --ink: #14213d;
-      --muted: #5f6f89;
-      --line: #dbe3ef;
-      --accent: #0b63ce;
-      --accent-dark: #084d9f;
+      --line: #d9e2ee;
+      --blue: #0b63ce;
+      --blue-dark: #084d9f;
       --soft: #eaf2ff;
     }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      color: var(--ink);
-      line-height: 1.5;
-    }
-
-    header {
-      background: #102a43;
-      color: #ffffff;
-      padding: 48px 20px;
-    }
-
-    .wrap {
-      width: min(1080px, calc(100% - 32px));
-      margin: 0 auto;
-    }
-
-    .eyebrow {
-      margin: 0 0 10px;
-      color: #b9d7ff;
-      font-size: 0.9rem;
-      font-weight: 700;
-      letter-spacing: 0.04em;
-      text-transform: uppercase;
-    }
-
-    h1 {
-      margin: 0;
-      max-width: 820px;
-      font-size: clamp(2rem, 5vw, 3.8rem);
-      line-height: 1.05;
-      letter-spacing: 0;
-    }
-
-    .intro {
-      max-width: 760px;
-      margin: 18px 0 0;
-      color: #d8e7fb;
-      font-size: 1.1rem;
-    }
-
-    main {
-      padding: 34px 0 48px;
-    }
-
-    .toolbar {
-      display: flex;
-      justify-content: space-between;
-      gap: 16px;
-      align-items: center;
-      margin-bottom: 18px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 18px;
-    }
-
-    .card {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-      min-height: 260px;
-      padding: 22px;
-      background: var(--panel);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      box-shadow: 0 12px 28px rgba(16, 42, 67, 0.08);
-    }
-
-    .badge {
-      display: inline-flex;
-      width: fit-content;
-      padding: 6px 10px;
-      border-radius: 999px;
-      background: var(--soft);
-      color: var(--accent-dark);
-      font-size: 0.85rem;
-      font-weight: 700;
-    }
-
-    h2 {
-      margin: 0;
-      font-size: 1.45rem;
-      line-height: 1.2;
-    }
-
-    .meta {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 8px;
-      margin: 0;
-      padding: 0;
-      list-style: none;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    .meta li {
-      padding: 6px 9px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: #fbfdff;
-    }
-
-    .card p {
-      margin: 0;
-      color: var(--muted);
-    }
-
-    .actions {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 10px;
-      margin-top: auto;
-    }
-
-    a.button {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 44px;
-      padding: 10px 14px;
-      border-radius: 8px;
-      text-decoration: none;
-      font-weight: 700;
-      border: 1px solid var(--accent);
-    }
-
-    a.primary {
-      background: var(--accent);
-      color: #ffffff;
-    }
-
-    a.primary:hover,
-    a.primary:focus {
-      background: var(--accent-dark);
-    }
-
-    a.secondary {
-      color: var(--accent-dark);
-      background: #ffffff;
-    }
-
-    a.secondary:hover,
-    a.secondary:focus {
-      background: var(--soft);
-    }
-
-    footer {
-      padding: 22px 0 36px;
-      color: var(--muted);
-      font-size: 0.9rem;
-    }
-
-    @media (max-width: 760px) {
-      header {
-        padding: 36px 18px;
-      }
-
-      .grid {
-        grid-template-columns: 1fr;
-      }
-
-      .toolbar {
-        align-items: flex-start;
-        flex-direction: column;
-      }
-    }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; background: var(--bg); color: var(--ink); line-height: 1.5; }
+    header { background: #102a43; color: #fff; padding: 36px 18px; }
+    .wrap { width: min(1120px, calc(100% - 28px)); margin: 0 auto; }
+    .eyebrow { margin: 0 0 8px; color: #b9d7ff; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; font-size: .86rem; }
+    h1 { margin: 0; font-size: clamp(1.9rem, 5vw, 3.4rem); line-height: 1.08; letter-spacing: 0; }
+    .intro { max-width: 820px; color: #d8e7fb; margin: 14px 0 0; font-size: 1.05rem; }
+    main { padding: 24px 0 48px; }
+    .topbar { display: grid; grid-template-columns: 1fr auto; gap: 14px; align-items: center; margin-bottom: 16px; }
+    .tabs { display: flex; flex-wrap: wrap; gap: 8px; }
+    button, .button { border: 1px solid var(--blue); border-radius: 8px; min-height: 42px; padding: 9px 13px; font-weight: 700; cursor: pointer; text-decoration: none; }
+    button { background: #fff; color: var(--blue-dark); }
+    button.active { background: var(--blue); color: #fff; }
+    .button { display: inline-flex; align-items: center; background: #fff; color: var(--blue-dark); }
+    .button:hover, button:hover { background: var(--soft); }
+    button.active:hover { background: var(--blue-dark); }
+    .downloads { display: flex; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
+    .search { width: 100%; margin: 0 0 16px; }
+    .search input { width: 100%; min-height: 46px; padding: 10px 13px; border: 1px solid var(--line); border-radius: 8px; font-size: 1rem; }
+    .summary { margin: 0 0 14px; color: var(--muted); }
+    .item { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; margin-bottom: 10px; overflow: hidden; box-shadow: 0 8px 22px rgba(16, 42, 67, .06); }
+    summary { display: grid; grid-template-columns: 1fr; gap: 3px; padding: 14px 16px; cursor: pointer; font-weight: 700; }
+    summary small { color: var(--muted); font-weight: 400; }
+    pre { margin: 0; padding: 0 16px 16px; white-space: pre-wrap; font-family: Arial, Helvetica, sans-serif; color: #26384d; overflow-wrap: anywhere; }
+    .hidden { display: none; }
+    footer { color: var(--muted); font-size: .9rem; padding: 0 0 32px; }
+    @media (max-width: 740px) { .topbar { grid-template-columns: 1fr; } .downloads { justify-content: flex-start; } }
   </style>
 </head>
 <body>
   <header>
     <div class="wrap">
-      <p class="eyebrow">Electrical Engineering Manager</p>
-      <h1>EEM CoC Legislation Exam References</h1>
-      <p class="intro">A simple reference page for Surface and Underground EEM Certificate of Competency legislation exam PDFs.</p>
+      <p class="eyebrow">EEM Certificate of Competency</p>
+      <h1>EEM CoC Legislation Questions</h1>
+      <p class="intro">Web format for Surface and Underground EEM legislation exam reference material. Use the tabs, search box, or original PDF links below.</p>
     </div>
   </header>
 
   <main>
     <div class="wrap">
-      <div class="toolbar" aria-label="Page summary">
-        <strong>Available references</strong>
-        <span>Open online or download for offline study.</span>
+      <div class="topbar">
+        <div class="tabs" aria-label="Document tabs">
+          <button class="active" data-tab="surface">Surface EEM</button>
+          <button data-tab="underground">Underground EEM</button>
+        </div>
+        <div class="downloads">
+          <a class="button" href="pdfs/surface-eem-legislation-exam-references.pdf" target="_blank" rel="noopener">Surface PDF</a>
+          <a class="button" href="pdfs/underground-eem-legislation-exam-references.pdf" target="_blank" rel="noopener">Underground PDF</a>
+        </div>
       </div>
 
-      <section class="grid" aria-label="PDF documents">
-        <article class="card">
-          <span class="badge">Surface EEM</span>
-          <h2>EEM CoC Legislation Exam References SUR-EEM</h2>
-          <ul class="meta" aria-label="Surface PDF details">
-            <li>PDF</li>
-            <li>14 pages</li>
-            <li>A4</li>
-          </ul>
-          <p>Surface Electrical Engineering Manager legislation exam reference document.</p>
-          <div class="actions">
-            <a class="button primary" href="pdfs/surface-eem-legislation-exam-references.pdf" target="_blank" rel="noopener">Open PDF</a>
-            <a class="button secondary" href="pdfs/surface-eem-legislation-exam-references.pdf" download>Download</a>
-          </div>
-        </article>
+      <label class="search" aria-label="Search sections">
+        <input id="search" type="search" placeholder="Search section, keyword, duty, risk, isolation...">
+      </label>
 
-        <article class="card">
-          <span class="badge">Underground EEM</span>
-          <h2>EEM CoC Legislation Exam References UG-EEM</h2>
-          <ul class="meta" aria-label="Underground PDF details">
-            <li>PDF</li>
-            <li>38 pages</li>
-            <li>A4</li>
-          </ul>
-          <p>Underground Electrical Engineering Manager legislation exam reference document.</p>
-          <div class="actions">
-            <a class="button primary" href="pdfs/underground-eem-legislation-exam-references.pdf" target="_blank" rel="noopener">Open PDF</a>
-            <a class="button secondary" href="pdfs/underground-eem-legislation-exam-references.pdf" download>Download</a>
-          </div>
-        </article>
+      <p class="summary" id="summary">Showing Surface EEM: 48 sections.</p>
+
+      <section id="surface" class="panel" aria-label="Surface EEM web content">
+        <details class="item" data-kind="surface" open>
+  <summary><span>Section 12 - Meaning of competence</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>Competence for a task at a coal mine is the demonstrated skill and knowledge required to carry out the task
+to a standard necessary for the safety and health of persons.</pre>
+</details>
+<details class="item" data-kind="surface" open>
+  <summary><span>Section 15 - Meaning of accident</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>An accident at a coal mine is an event, or a series of events, at the coal mine causing injury to a person.</pre>
+</details>
+<details class="item" data-kind="surface" open>
+  <summary><span>Section 16 - Meaning of serious accident</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>A serious accident at a coal mine is an accident at a coal mine that causes—
+(a) the death of a person; or
+(b) a person to be admitted to a hospital as an in-patient for treatment for the injury.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 17 - Meaning of high potential incident</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>A high potential incident at a coal mine is an event, or a series of events, that causes or has the potential to
+cause a significant adverse effect on the safety or health of a person.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 26 - Meaning of supervisor</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>A supervisor at a coal mine is a person appointed under section 56 to—
+(a) implement and monitor the coal mine’s safety and health management system; and
+(b) give directions to other coal mine workers at the coal mine in accordance with the safety and health
+management system.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 30 - How is an acceptable level of risk achieved</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) To achieve an acceptable level of risk, this Act requires that management and operating systems must be
+put in place for each coal mine.
+(2) This Act provides that the systems must incorporate risk management elements and practices appropriate
+for each coal mine to—
+(a) identify, analyse, and assess risk; and
+(b) avoid or remove unacceptable risk; and
+(c) monitor levels of risk and the adverse consequences of retained residual risk; and
+(d) provide for critical controls; and
+(e) investigate and analyse the causes of serious accidents and high potential incidents with a view to
+preventing their recurrence; and
+(f) review the effectiveness of risk control measures, and take appropriate corrective and preventive action;
+and
+(g) mitigate the potential adverse effects arising from residual risk.
+(3) Also, the way an acceptable level of risk of injury or illness may be achieved may be prescribed under a
+regulation.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 39A - Additional obligations</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) This section applies to each of the following persons—
+(a) a coal mine worker at a coal mine;
+(b) another person at a coal mine;
+(c) an ROC worker for a coal mine.
+(2) The person has the following additional obligations—
+(a) to work or carry out the person’s activities in a way that does not expose the person or someone else to
+an unacceptable level of risk;
+(b) to ensure, to the extent of the responsibilities and duties allocated to the person, that the work and
+activities under the person’s control, supervision, or leadership is conducted in a way that does not expose
+the person or someone else to an unacceptable level of risk;
+(c) to the extent of the person’s involvement—to participate in and conform to the risk management
+practices of the mine;
+(d) to comply with instructions given for safety and health of persons by the coal mine operator or site senior
+executive for the mine or a supervisor at the mine;
+(e) to work at or for the coal mine only if the person is in a fit condition to carry out the work without
+affecting the safety and health of others;
+(f) not to do anything wilfully or recklessly that might adversely affect the safety and health of someone else
+at the mine.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 55 - Management structure for safe operations at coal mines</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) The site senior executive for a coal mine must—
+(a) develop and maintain a management structure for the coal mine in a way that allows development and
+implementation of the safety and health management system; and
+(b) document the management structure.
+Maximum penalty—40 penalty units.
+(2) The document must state—
+(a) the responsibilities of the site senior executive; and
+(b) the responsibilities and competencies required for senior positions in the structure; and
+(c) the names of the persons holding the senior positions and their competencies; and
+(d) the name of the person who is responsible for establishing and implementing a system for managing
+contractors at the coal mine; and
+(e) the competencies required, and the responsibilities, for each other supervisory position at the mine.
+Maximum penalty—40 penalty units.
+(3) For subsection (2)(b), an inspector may by notice given to the site senior executive declare a position to
+be a senior position.
+(4) For each supervisory position mentioned in subsection (2)(e), the site senior executive must also keep a
+record of the names and competencies of each person authorised to carry out the responsibilities of the
+position.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 200 - Site not to be interfered with without permission</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) A person must not interfere with a place at a coal mine that is the site of a serious accident or high
+potential incident of a type prescribed by regulation, without the permission of an inspector.
+Maximum penalty—200 penalty units.
+(2) Permission under subsection (1) must not be unreasonably withheld.
+(3) For this division, action taken to save life or prevent further injury at a place is not interference with the
+place.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 16A - Supervisor’s responsibilities</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A supervisor for a coal mine has the following responsibilities—
+(a) ensuring each mine worker for whom the supervisor has responsibilities is given the supervision and help
+mentioned in sections 85A(2) and 85B;
+(b) observing each coal mine worker for whom the supervisor has responsibilities perform tasks;
+(c) carrying out inspections of workplaces at the coal mine as required under the coal mine’s safety and
+health management system;
+(d) recording reports of, and findings and recommendations resulting from, inspections mentioned in
+paragraph (c) in the mine record;
+(e) implementing and monitoring hazard controls and risk controls as required under the coal mine’s safety
+and health management system.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 17 - Qualifications for appointment as electrical engineering manager</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A person may appoint a person as an electrical engineering manager only if the person has the recognised
+competencies for controlling and managing the mine’s electrical engineering activities.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 18 - Duties of electrical engineering manager</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The duties of an electrical engineering manager include controlling and managing the following at the
+mine—
+(a) the design of electrical installations;
+(b) the installation and maintenance of electrical equipment and electrical installations;
+(c) electrical work;
+(d) work carried out close to electrical installations.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 19 - Duty to give notice of proposed introduction of electricity</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>Before electricity is introduced at a coal mine for use in coal mining operations, or after electricity is
+permanently disconnected, the site senior executive for the coal mine must notify an inspector of the
+proposed introduction, or disconnection.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 20 - Competencies of persons carrying out work on electrical equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) Subject to subsection (2), only a person who has the recognised competency for repairing, overhauling
+and maintaining electrical equipment for explosive atmospheres may carry out the following work at a coal
+mine—
+(a) electrical work in an ERZ;
+(b) work on electrical equipment used in an ERZ;
+(c) work on extra low voltage systems associated with explosion-protected equipment and installations;
+(d) work on explosion-protected electrical equipment installed at a surface mine;
+(e) electrical work in an area, at a surface mine, that a risk assessment shows has an explosion risk.
+(2) Only a person who has the recognised competency for repairing, overhauling and maintaining electrical
+equipment for mobile plant used in underground mines may carry out work on extra low voltage systems
+associated with mobile plant for an underground mine.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 21 - Access to exposed electrical conductors</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for safely accessing exposed electrical conductors
+at the mine.
+(2) The procedure must provide for minimising the risk of energising exposed electrical conductors on
+which work is to be carried out, including, for example, by using—
+(a) personal locks; or
+(b) danger tags; or
+(c) personal locks and danger tags.
+(3) The procedure must also provide that before work is carried out on an exposed electrical conductor at
+above extra low voltage the conductor must be—
+(a) positively isolated from the electricity source; and
+(b) tested for zero potential; and
+(c) if the conductor is a high voltage conductor, earthed.
+(4) Subsection (5) applies only to a surface mine and only if—
+(a) it is not practicable to positively isolate the conductor from the electricity source; and
+(b) access to the conductor is required or work in close proximity to the conductor is required to be carried
+out.
+(5) The procedure must also provide that—
+(a) a risk assessment, including consideration of high fault currents, must be carried out before the work is
+carried out; and
+(b) if the risk assessment shows an unacceptable level of risk in carrying out the work with the conductor
+energised, before the work is carried out, the conductor must be—
+(i) positively isolated from the electricity source; and
+(ii) tested for zero potential; and
+(iii) if the conductor is a high voltage conductor, earthed.
+(6) In this section—
+close proximity, to a conductor, means—
+(a) for a person—
+(i) for a high voltage conductor—within the exclusion zone for the person for the conductor under
+the Electrical Safety Regulation 2013; or
+(ii) for a low voltage conductor—within reach of the conductor; or
+(b) for plant being used for work near an overhead power line—within the minimum clearances required
+under AS/NZS 3007;2013.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 22 - Locating and dealing with electrical faults</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for re-energising an electrical circuit at the mine
+that has been switched off by a circuit protection device.
+(2) A person may use electrical energy, other than electrical energy generated from appropriately designed
+test instruments, for locating, isolating or clearing only the following electrical faults—
+(a) an overload of an electric motor;
+(b) an earth leakage trip associated with an impedance earth circuit;
+(c) a 30mA earth leakage trip;
+(d) an earth continuity trip.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 23 - Design, installation and maintenance</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The site senior executive for a coal mine must ensure the design, installation and maintenance of electrical
+equipment and installations at the mine provide for the following—
+(a) reliable circuit interruption, under fault conditions, at all points in the mine’s electrical distribution
+system;
+(b) each earthing system at the mine to be of sufficiently low impedance to ensure reliable operation of all
+electrical protection systems and devices and adequate protection against indirect contact;
+(c) limiting prospective touch voltage, under fault conditions, to within acceptable limits;
+(d) minimising potential impacts from voltage rise caused by lightning strike, static electricity, voltage
+surges and other transient voltages to within acceptable limits;
+(e) preventing a person inadvertently contacting live parts of equipment or an installation exceeding extra
+low voltage.
+Example for paragraph (e)—
+The design, installation and maintenance may provide for insulation or an enclosure, shield, interlocking
+device or automatic disconnection device for the equipment or installation.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 24 - Isolators for equipment driven by electricity</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure the mine has a full current isolator for
+equipment driven by electricity at the mine.
+(2) The electrical engineering manager must ensure—
+(a) the isolator is—
+(i) clearly identified as the isolator for the equipment; and
+(ii) situated in a location that is easily accessible by a person working on the equipment; and
+(b) the equipment is clearly identified as being supplied with electricity from the isolator.
+Example of how the isolator or equipment may be identified for subsection (2)—
+by marking the isolator or equipment, or placing a notice near the isolator or equipment</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 25 - Standard for electrical control systems</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A coal mine’s electrical engineering manager must ensure—
+(a) each electrical control system at the mine operates safely under all operating conditions, including
+electricity supply instability or failure; and
+(b) if the system suffers a fault or fails, all emergency stopping systems and safety alarms at the mine remain
+effective.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 26 - Control circuits</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure a control circuit at the mine run externally to
+an enclosure from which the circuit originates—
+(a) has a voltage of not more than a nominal voltage of 55V to earth; or
+(b) is protected by earth leakage current protection of not more than 30mA sensitivity; or
+(c) minimises the risk of direct contact and limits prospective touch voltage to within acceptable limits.
+(3) An underground mine’s electrical engineering manager must ensure a control circuit for the mine is
+explosion protected, unless the whole circuit is installed and operated in a NERZ.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 27 - Modification of electrical control systems</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A coal mine’s safety and health management system must—
+(a) provide for the security and maintenance of the mine’s electrical control system software and control
+circuits; and
+(b) control modification of the software and circuits; and
+(c) provide for records to be kept of any modifications.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 28 - Electrical protection for power outlets for low voltage electrical equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure a single-phase power outlet for low voltage
+electrical equipment at the mine has—
+(a) earth leakage current protection of not more than 30mA sensitivity; or
+(b) a device preventing its use by portable electrical equipment.
+(2) Subsection (1) does not apply if the power outlet is the only outlet in an isolated electricity supply.
+(3) In this section—
+isolated electricity supply means an electricity supply—
+(a) other than the main electricity supply, that is totally insulated from conductive material; or
+(b) that is—
+(i) supplied with electricity from the main electricity supply; and
+(ii) totally isolated from the main electricity supply; and
+(iii) totally insulated from earth.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 29 - Operating times and tripping current for circuit protection devices</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure each circuit protection device at the mine has
+an appropriate operating time and tripping current, having regard to a risk assessment of the operation of the
+part of the electrical installation the device protects.
+(2) For a surface mine, the operating time may allow for a delay in cutting off the electricity supply if—
+(a) the device is installed to protect a person operating equipment; and
+(b) it is appropriate to allow the person to bring the equipment to rest before the electricity supply is cut; and
+(c) the person is immediately given a clear warning of the fault.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 30 - Changing electrical protection settings</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A person must not change an electrical protection setting for a circuit protection device at a coal mine,
+unless the person is authorised to make the change by the electrical engineering manager for the mine.
+(2) In this section—
+electrical protection setting, for a circuit protection device, means the current, voltage or operating time at
+which the device is set to trip when the device detects an electrical fault in the circuit.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 31 - Unearthed electrical installations</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure an unearthed electrical installation at the mine
+has earth fault detection and control.
+(2) Subsection (1) does not apply to a single-phase 240V generator of less than 25kW capacity at a surface
+mine.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 32 - Drawings of electrical installations</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a coal mine must ensure up-to-date drawings of the mine’s electrical
+installations are available for use at the mine when electrical equipment and electrical installations are
+commissioned or modified.
+(2) The drawings must be updated as soon as practicable, but not later than 8 days, after—
+(a) the commissioning of any electrical equipment or electrical installation at the mine; or
+(b) any major modification to electrical equipment or an electrical installation at the mine.
+(3) The drawings must be kept in a location that is easily accessible by each coal mine worker authorised by
+an electrical supervisor or the coal mine’s electrical engineering manager to access the drawings.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 34 - Records</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager or, if there is no electrical engineering manager for the
+mine, the site senior executive for the mine, must ensure a record of the following matters about the mine’s
+electrical activities, equipment and installations is kept at the mine—
+(a) for each electrical installation—
+(i) its electrical protection settings, fault levels, and cable and conductor sizes and switchgear ratings,
+including circuit interrupting capacity; and
+(ii) its commissioning dates and results; and
+(iii) its monitoring and test dates and results;
+(b) for each item of electrical equipment—
+(i) its commissioning dates and results; and
+(ii) its monitoring and test dates and results;
+(c) for each item of electrical safety equipment used—
+(i) its description; and
+(ii) its test dates and results;
+(d) the name of each person appointed—
+(i) to control and manage the mine’s electrical engineering activities; or
+(ii) to carry out electrical work and electrical activities;
+(e) the name of each person authorised to enter an electrical operating area;
+(f) the activity each person mentioned in paragraph (e) is authorised to carry out in the operating area.
+(2) In this section—
+electrical operating area means an area or enclosure in which electrical equipment or an electrical
+installation is housed.
+electrical safety equipment includes an instrument for testing electrical equipment, a ladder, a safety
+harness, an insulating tool and insulating gloves.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 35 - General</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for managing emergencies at the
+mine.
+(2) The system must provide for the following—
+(a) identifying, by risk assessment, potential emergency situations;
+(b) minimising risks associated with potential emergency situations;
+(c) carrying out aided rescue and self-escape of persons from the mine in an emergency;
+(d) carrying out emergency exercises, including testing the effectiveness of emergency management
+procedures and the readiness and fitness of equipment for use in an emergency;
+(e) auditing and reviewing the emergency exercises;
+(f) if the mine is a surface mine—involving an open-cut examiner for the mine in—
+(i) developing and testing the emergency management procedures for activities, including mining activities,
+in and around the surface excavation at the mine; and
+(ii) auditing the documentation for the procedures;
+(g) if the mine is an underground mine—involving an ERZ controller for the mine in—
+(i) developing and testing the emergency management procedures for explosion risk zones; and
+(ii) auditing the documentation for the procedures.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 37 - Fire</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for the following at the mine—
+(a) fire prevention and control;
+(b) an effective fire fighting capability;
+(c) the safety of persons fighting fires;
+(d) a risk assessment to identify all potential fire hazards at the mine.
+(2) The system must also provide for the following—
+(a) the availability at the mine, at all times, of equipment that is appropriate and sufficient to extinguish any
+potential fire identified by the risk assessment;
+(b) the location of portable fire extinguishers on or near equipment and installations identified as potential
+fire hazards by the risk assessment;
+(c) the compatibility, throughout the mine, of all fire fighting equipment.
+(3) The coal mine must have a standard operating procedure for action to be taken when a fire is discovered
+at the mine.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 38 - First aid</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for first aid at the mine.
+(2) The system must provide for the following—
+(a) the supply and placement of first aid supplies and equipment, including supplies and equipment required
+for emergencies, based on a risk assessment;
+(b) appropriate first aid training, including refresher training, emphasising the safety of the person giving
+first aid as well as the safety of the person receiving first aid;
+(c) the availability of a sufficient number of persons competent in giving first aid.
+(3) For accidents involving electricity, the mine must have a standard operating procedure for the
+following—
+(a) releasing a person from an energised low and high voltage conductor;
+(b) resuscitating a person in an electrical environment;
+(c) managing a person’s flash burn injuries.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 68 - Modifying plant</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for modifying fixed and mobile plant.
+(2) A coal mine’s safety and health management system must provide for the following—
+(a) recording modifications made to the plant at the mine;
+(b) updating drawings of the plant held at the mine to include the modifications;
+(c) assessing and managing risk associated with the modifications.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 69 - Pre-start warning</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) This section applies if starting fixed or mobile plant at a coal mine is likely to cause a hazard to a person
+near the plant.
+(2) The mine’s safety and health management system must provide for the plant to be fitted with a device
+that sounds a warning before the plant is started.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 78 - Isolating and tagging procedures</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for the following—
+(a)controlling the risk of an unplanned release of energy from plant, including positively isolating the energy
+source;
+(b) if an electrical or mechanical energy source is positively isolated—testing for zero potential;
+(c) taking plant out of service;
+(d) returning plant to service.
+(2) Without limiting subsection (1), the standard operating procedure may provide for the use of danger,
+isolation, operational, out of service, personal and restriction tags for particular circumstances.
+(3) If the safety or health of a person is directly affected by the operation or non-operation of plant, the
+procedure must also provide for the person to personally control, by attaching a danger tag or lock to the
+plant, the plant’s change in status from non-operational to operational.
+(4) For subsection (1)(a), the method for positively isolating the energy source for plant provided for in the
+standard operating procedure must—
+(a) for plant that is electrical equipment—be a manually initiated operation that—
+(i) isolates all active power conductors of the plant being isolated from the electricity supply; and
+(ii) prevents unintended re-energisation, including re-energisation through inadvertent operation of the plant
+or component failure; and
+(b) for other plant—be the operation of a manually operated device that—
+(i) is installed in the energy supply for the plant and, when operated, isolates the plant from its energy
+source; and
+(ii) requires a manually initiated operation for the supply of energy to the plant to be resumed; and
+(c) require the isolation device be clearly marked as being the positive means of isolating the plant.
+(5) In this section—
+isolation device means—
+(a) for plant that is electrical equipment—the device used manually to initiate the operation mentioned in
+subsection (4)(a); or
+(b) for other plant—the device mentioned in subsection (4)(b).</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 79 - Equipment used for maintaining plant</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for electrical and mechanical equipment used for
+inspecting, testing and maintaining the safe operation of plant at the mine.
+(2) The procedure must provide for the following—
+(a) selecting equipment that is fit for its intended purpose;
+(b) using the equipment safely;
+(c) maintaining the equipment in accordance with its specification;
+(d) testing the equipment at appropriate intervals and labelling the equipment to show when the equipment
+was last tested.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 85A - Time and resources for carrying out tasks</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a coal mine must ensure time is allocated, and the mine’s resources are
+distributed, to enable each coal mine worker at the mine to carry out the worker’s tasks without creating an
+unacceptable level of risk.
+(2) Without limiting subsection (1), the site senior executive must ensure the coal mine worker is given the
+supervision, and help from other competent persons, necessary to achieve an acceptable level of risk.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 85B - Supervising workers</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) Without limiting section 85A(2), the site senior executive for a coal mine must ensure the coal mine’s
+activities and coal mine workers are supervised to the extent necessary to ensure each worker—
+(a) is not likely to be exposed to conditions beyond the worker’s capabilities; and
+(b) is not likely to be affected by the conditions in which the worker is working in a way that adversely
+affects the worker’s fitness to perform critical tasks; and
+(c) has the resources necessary to undertake the work without being exposed to an unacceptable level of
+risk; and
+(d) is working within the limits of the worker’s fitness and competence; and
+(e) complies with the worker’s safety and health obligations.
+(2) The supervision must include communication, including direct contact, between the supervisor and the
+coal mine worker at appropriate intervals.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 86 - Air conditioning units</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A coal mine’s safety and health management system must provide for maintaining and cleaning air
+conditioning units used at the mine.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 88 - Cutting, drilling or excavating near a concealed service</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for controlling risks from cutting or
+drilling into a building or structure, or excavating ground, at the mine where there may be a concealed
+service.
+(2) The system must provide for the following to minimise the uncontrolled release of non-electrical or
+electrical energy from a concealed service—
+(a) locating the energy source and placing a mark, describing the source, on or near the source;
+(b) isolating the energy source;
+(c) testing the energy source and proving the source de-energised.
+(3) The site senior executive for the coal mine must provide sufficient equipment for the matters mentioned
+in subsection (2)(a) to (c).</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 112 - Live testing electrical equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine must have a standard operating procedure for live testing electrical equipment at the
+mine.
+(2) The procedure must—
+(a) state—
+(i) what equipment may be live tested; and
+(ii) what instruments may be used for the testing; and
+(b) provide for the following—
+(i) isolating areas where equipment is being live tested or test run;
+(ii) using personal protective equipment;
+(iii) using high voltage test equipment and discharging stored energy after the test;
+(iv) dealing with high prospective fault currents;
+(v) other precautions to be taken for live testing.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 113 - Electrical protection for electrical distribution system</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a surface mine must ensure an earthed electrical distribution system at the
+mine has earth leakage protection.
+(2) Subsection (1) does not apply if—
+(a) persons at the mine are protected against indirect contact with the system; or
+(b) for an overhead power line—
+(i) mobile plant is not operated close to the line; and
+(ii) a risk assessment shows earth leakage protection would only minimally reduce the risk.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 114 - Electrical protection for mobile or transportable equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)This section applies to mobile or transportable equipment used at a surface mine and supplied with
+electricity by a reeling or trailing cable.
+(2)If the equipment does not have a local earthing system, the site senior executive for the mine must ensure
+the cable has an earth continuity monitoring system that cuts off the electricity supply immediately after an
+earth continuity fault is detected in the cable or equipment.
+(3)Subsection (2) does not apply if the cable—
+(a)is a low voltage cable; and
+(b)has earth leakage current protection of not more than 30mA sensitivity; and
+(c)has individually screened cores; and
+(d)has no joining plugs or sockets.
+(4)The site senior executive must ensure the electricity source for the equipment has an earth fault current
+limitation device that limits prospective touch voltage to within acceptable limits.
+(5)Subsection (4) does not apply if the equipment is low voltage equipment and persons at the mine are
+otherwise protected adequately against injury from indirect contact with electricity.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 127 - Plans of surface services</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a surface mine must ensure current plans identifying and showing the
+location of surface services, including buried services, are kept in a location at the mine that is easily
+accessible by each coal mine worker at the mine.
+(2) In this section—
+buried service includes electricity conducted through an underground electrical cable and another service
+carried in an underground pipe.
+surface service includes the following—
+(a) a communication cable;
+(b) compressed air storage and reticulation;
+(c) diesel storage and reticulation;
+(d) an electrical cable;
+(e) an emergency access or road;
+(f) a fire fighting facility;
+(g) a first aid facility;
+(h) gas storage and reticulation;
+(i) rescue equipment;
+(j) a sewerage facility;
+(k) a water storage pipeline or drain.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 132 - Using and relocating operator-attended dredges</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine must have a standard operating procedure for using and relocating operator-attended
+dredges at the mine.
+(2) The procedure must provide for the following—
+(a) safe access to a floating pontoon;
+(b) restricting access to areas identified in a risk assessment as high risk areas;
+(c) controlling electrical trailing cables connected to the dredge;
+(d) the safety of persons near winch ropes;
+(e) using a bilge pump, including, in particular, ways to minimise the risk of reverse siphoning;
+(f) checking and recording the dredge’s freeboard;
+(g) maintaining and inspecting the dredge’s hulls and parts essential for flotation;
+(h) controlling risk from dredging the face;
+(i) monitoring climatic conditions and securing the dredge during adverse climatic conditions.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 135 - Using plant near electricity</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine must have a standard operating procedure for using fixed and mobile plant near electrical
+cables, overhead electrical conductors, or electrical equipment.
+(2) The procedure must provide for the following—
+(a) recording power line heights at each location where a vehicle may pass;
+(b) keeping a register of the height of vehicles and mobile plant used on site;
+(c) fixing standard travelling routes at the mine;
+(d) travelling other than on a standard travelling route;
+(e) inspecting, and reporting on, travelling routes for plant not included in the register mentioned in
+paragraph (b);
+(f) preventing incidents involving electrical contact, including, for example, by—
+(i) using barriers, signs, indicators and alarms; and
+(ii) requiring stated clearance distances between plant and electrical conductors; and
+(iii) isolating electrical conductors.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 137 - Fire detection and suppression in tunnels</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A surface mine’s safety and health management system must provide for automatically detecting
+combustion and suppressing fires in tunnels beneath stockpiles.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 144 - Lighting</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A surface mine’s safety and health management system must provide for the following—
+(a) adequate lighting, having regard to shadow, contrast and glare, in each area of the mine in which work is
+to be carried out so the work can be carried out safely;
+(b) emergency lighting to ensure that persons in a building or enclosure at the mine can safely exit if the
+normal lighting fails.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 146 - Trenches</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine’s safety and health management system must provide for protecting persons from risks
+from trenches at the mine.
+(2) The system must provide for the following—
+(a) the use of barricades;
+(b) ground support;
+(c) water ingress and hazardous atmosphere in the trench.</pre>
+</details>
+<details class="item" data-kind="surface">
+  <summary><span>Section 370A - Activity that is not an on-site activity—Act, s 10</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)For section 10(2)(g) of the Act, an activity performed by an electricity entity, in relation to its works, and
+for the purpose of supplying electricity, is not an on-site activity.
+(2)In this section—
+electricity entity has the meaning given by the Electrical Safety Act 2002.
+works, of an electricity entity, has the meaning given by the Electrical Safety Act 2002, section 25.</pre>
+</details>
+      </section>
+
+      <section id="underground" class="panel hidden" aria-label="Underground EEM web content">
+        <details class="item" data-kind="underground" open>
+  <summary><span>Section 12 - Meaning of competence</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>Competence for a task at a coal mine is the demonstrated skill and knowledge required to carry out the task to a
+standard necessary for the safety and health of persons.</pre>
+</details>
+<details class="item" data-kind="underground" open>
+  <summary><span>Section 15 - Meaning of accident</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>An accident at a coal mine is an event, or a series of events, at the coal mine causing injury to a person.</pre>
+</details>
+<details class="item" data-kind="underground" open>
+  <summary><span>Section 16 - Meaning of serious accident</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>A serious accident at a coal mine is an accident at a coal mine that causes—
+(a) the death of a person; or
+(b) a person to be admitted to a hospital as an in-patient for treatment for the injury.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 17 - Meaning of high potential incident</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>A high potential incident at a coal mine is an event, or a series of events, that causes or has the potential to
+cause a significant adverse effect on the safety or health of a person.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 26 - Meaning of supervisor</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>A supervisor at a coal mine is a person appointed under section 56 to—
+(a) implement and monitor the coal mine’s safety and health management system; and
+(b) give directions to other coal mine workers at the coal mine in accordance with the safety and health
+management system.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 30 - How is an acceptable level of risk achieved</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) To achieve an acceptable level of risk, this Act requires that management and operating systems must be put
+in place for each coal mine.
+(2) This Act provides that the systems must incorporate risk management elements and practices appropriate
+for each coal mine to—
+(a) identify, analyse, and assess risk; and
+(b) avoid or remove unacceptable risk; and
+(c) monitor levels of risk and the adverse consequences of retained residual risk; and
+(d) provide for critical controls; and
+(e) investigate and analyse the causes of serious accidents and high potential incidents with a view to
+preventing their recurrence; and
+(f) review the effectiveness of risk control measures, and take appropriate corrective and preventive action; and
+(g) mitigate the potential adverse effects arising from residual risk.
+(3) Also, the way an acceptable level of risk of injury or illness may be achieved may be prescribed under a
+regulation.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 39A - Additional obligations</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) This section applies to each of the following persons—
+(a) a coal mine worker at a coal mine;
+(b) another person at a coal mine;
+(c) an ROC worker for a coal mine.
+(2) The person has the following additional obligations—
+(a) to work or carry out the person’s activities in a way that does not expose the person or someone else to an
+unacceptable level of risk;
+(b) to ensure, to the extent of the responsibilities and duties allocated to the person, that the work and activities
+under the person’s control, supervision, or leadership is conducted in a way that does not expose the person or
+someone else to an unacceptable level of risk;
+(c) to the extent of the person’s involvement—to participate in and conform to the risk management practices
+of the mine;
+(d) to comply with instructions given for safety and health of persons by the coal mine operator or site senior
+executive for the mine or a supervisor at the mine;
+(e) to work at or for the coal mine only if the person is in a fit condition to carry out the work without affecting
+the safety and health of others;
+(f) not to do anything wilfully or recklessly that might adversely affect the safety and health of someone else at
+the mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 55 - Management structure for safe operations at coal mines</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) The site senior executive for a coal mine must—
+(a) develop and maintain a management structure for the coal mine in a way that allows development and
+implementation of the safety and health management system; and
+(b) document the management structure.
+Maximum penalty—40 penalty units.
+(2) The document must state—
+(a) the responsibilities of the site senior executive; and
+(b) the responsibilities and competencies required for senior positions in the structure; and
+(c) the names of the persons holding the senior positions and their competencies; and
+(d) the name of the person who is responsible for establishing and implementing a system for managing
+contractors at the coal mine; and
+(e) the competencies required, and the responsibilities, for each other supervisory position at the mine.
+Maximum penalty—40 penalty units.
+(3) For subsection (2)(b), an inspector may by notice given to the site senior executive declare a position to be a
+senior position.
+(4) For each supervisory position mentioned in subsection (2)(e), the site senior executive must also keep a
+record of the names and competencies of each person authorised to carry out the responsibilities of the position.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 60 - Additional requirements for management of underground mines</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1)This section applies to an underground mine.
+(2)The site senior executive must appoint a person to be underground mine manager to control and manage the
+mine.
+Maximum penalty—400 penalty units.
+(3)However, the site senior executive may be appointed underground mine manager by the coal mine operator
+for the mine.
+(4)The site senior executive must appoint an alternate underground mine manager if the mine is to be managed
+in accordance with a commute system.
+Maximum penalty—400 penalty units.
+(5)The coal mine operator or site senior executive must not appoint a person as an underground mine manager
+unless the person has both of the following board qualifications—
+(a)a first class certificate of competency for an underground mine;
+(b)the practising certificate required by the board of examiners to be held by a person holding the board
+qualification mentioned in paragraph (a).
+Maximum penalty—400 penalty units.
+(6)A person must not give a direction to the underground mine manager about a technical matter in relation to
+the underground mine unless the person giving the direction is the holder of a first class certificate of
+competency for an underground coal mine.
+Maximum penalty—200 penalty units.
+(7)A person must not give a direction to the underground mine manager that may adversely affect safety and
+health at the underground mine.
+Maximum penalty—200 penalty units.
+(8)The underground mine manager must appoint a person holding both of the following board qualifications to
+be responsible for the control and management of underground activities when the manager is not in attendance
+at the mine—
+(a)a first or second class certificate of competency or a deputy’s certificate of competency for an underground
+mine;
+(b)the practising certificate required by the board of examiners to be held by a person holding the board
+qualification mentioned in paragraph (a).
+Maximum penalty—200 penalty units.
+(9)The underground mine manager must appoint a person holding both of the following board qualifications to
+have control of activities in 1 or more explosion risk zones—
+(a)a first- or second-class certificate of competency or a deputy’s certificate of competency for an underground
+mine;
+(b)the practising certificate required by the board of examiners to be held by a person holding the board
+qualification mentioned in paragraph (a).
+Maximum penalty—200 penalty units.
+(10)The underground mine manager must appoint a person, holding both of the following board qualifications,
+as electrical engineering manager to control and manage the electrical engineering activities of the mine—
+(a)an electrical engineering manager’s certificate of competency for an underground mine;
+
+(b)the practising certificate required by the board of examiners to be held by a person holding the board
+qualification mentioned in paragraph (a).
+Maximum penalty—200 penalty units.
+(11)The underground mine manager must appoint a person, holding both of the following board qualifications,
+as mechanical engineering manager to control and manage the mechanical engineering activities of the mine—
+(a)a mechanical engineering manager’s certificate of competency for an underground mine;
+(b)the practising certificate required by the board of examiners to be held by a person holding the board
+qualification mentioned in paragraph (a).
+Maximum penalty—200 penalty units.
+(12)The underground mine manager may appoint more than 1 person as the electrical engineering manager
+under subsection (10), or the mechanical engineering manager under subsection (11), to assume the duties of
+the manager at different times.
+(13)A coal mine operator or site senior executive may appoint a person as underground mine manager for more
+than 1 mine at the same time only with the written approval of the chief inspector.
+Maximum penalty—200 penalty units.
+(14)The coal mine operator for the underground mine must ensure that a site senior executive required to
+appoint a person under subsection (2) or (4), or an underground mine manager required to appoint a person
+under subsection (8), (9), (10) or (11), appoints a person under the subsection only if the person is an employee
+of—
+(a)for an appointment under subsection (2), (4) or (8)—
+(i)the coal mine operator; or
+(ii)an associated entity of the coal mine operator; or
+(iii)an entity that employs or otherwise engages 80% or more of the coal mine workers at the coal mine; or
+(b)for an appointment under subsection (9), (10) or (11)—
+(i)the coal mine operator; or
+(ii)an entity that employs or otherwise engages 80% or more of the coal mine workers at the coal mine.
+Maximum penalty—500 penalty units.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 200 - Site not to be interfered with without permission</span><small>Coal Mine Safety and Health Act 1999</small></summary>
+  <pre>(1) A person must not interfere with a place at a coal mine that is the site of a serious accident or high
+potential incident of a type prescribed by regulation, without the permission of an inspector.
+Maximum penalty—200 penalty units.
+(2) Permission under subsection (1) must not be unreasonably withheld.
+(3) For this division, action taken to save life or prevent further injury at a place is not interference with the
+place.
+IS
+INTENTIONALLY
+
+LEFT
+
+BLANK</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 16A - Supervisor’s responsibilities</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A supervisor for a coal mine has the following responsibilities—
+(a) ensuring each mine worker for whom the supervisor has responsibilities is given the supervision and help
+mentioned in sections 85A(2) and 85B;
+(b) observing each coal mine worker for whom the supervisor has responsibilities perform tasks;
+(c) carrying out inspections of workplaces at the coal mine as required under the coal mine’s safety and health
+management system;
+(d) recording reports of, and findings and recommendations resulting from, inspections mentioned in
+paragraph (c) in the mine record;
+(e) implementing and monitoring hazard controls and risk controls as required under the coal mine’s safety and
+health management system.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 17 - Qualifications for appointment as electrical engineering manager</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A person may appoint a person as an electrical engineering manager only if the person has the recognised
+competencies for controlling and managing the mine’s electrical engineering activities.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 18 - Duties of electrical engineering manager</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The duties of an electrical engineering manager include controlling and managing the following at the mine—
+(a) the design of electrical installations;
+(b) the installation and maintenance of electrical equipment and electrical installations;
+(c) electrical work;
+(d) work carried out close to electrical installations.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 19 - Duty to give notice of proposed introduction of electricity</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>Before electricity is introduced at a coal mine for use in coal mining operations, or after electricity is
+permanently disconnected, the site senior executive for the coal mine must notify an inspector of the proposed
+introduction, or disconnection.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 20 - Competencies of persons carrying out work on electrical equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) Subject to subsection (2), only a person who has the recognised competency for repairing, overhauling and
+maintaining electrical equipment for explosive atmospheres may carry out the following work at a coal mine—
+(a) electrical work in an ERZ;
+(b) work on electrical equipment used in an ERZ;
+(c) work on extra low voltage systems associated with explosion-protected equipment and installations;
+(d) work on explosion-protected electrical equipment installed at a surface mine;
+(e) electrical work in an area, at a surface mine, that a risk assessment shows has an explosion risk.
+(2) Only a person who has the recognised competency for repairing, overhauling and maintaining electrical
+equipment for mobile plant used in underground mines may carry out work on extra low voltage systems
+associated with mobile plant for an underground mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 21 - Access to exposed electrical conductors</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for safely accessing exposed electrical conductors at
+the mine.
+(2) The procedure must provide for minimising the risk of energising exposed electrical conductors on which
+work is to be carried out, including, for example, by using—
+(a) personal locks; or
+(b) danger tags; or
+(c) personal locks and danger tags.
+(3) The procedure must also provide that before work is carried out on an exposed electrical conductor at above
+extra low voltage the conductor must be—
+(a) positively isolated from the electricity source; and
+(b) tested for zero potential; and
+(c) if the conductor is a high voltage conductor, earthed.
+(4) Subsection (5) applies only to a surface mine and only if—
+(a) it is not practicable to positively isolate the conductor from the electricity source; and
+(b) access to the conductor is required or work in close proximity to the conductor is required to be carried out.
+(5) The procedure must also provide that—
+(a) a risk assessment, including consideration of high fault currents, must be carried out before the work is
+carried out; and
+(b) if the risk assessment shows an unacceptable level of risk in carrying out the work with the conductor
+energised, before the work is carried out, the conductor must be—
+(i) positively isolated from the electricity source; and
+(ii) tested for zero potential; and
+(iii) if the conductor is a high voltage conductor, earthed.
+(6) In this section—
+close proximity, to a conductor, means—
+(a) for a person—
+(i) for a high voltage conductor—within the exclusion zone for the person for the conductor under
+the Electrical Safety Regulation 2013; or
+(ii) for a low voltage conductor—within reach of the conductor; or
+(b) for plant being used for work near an overhead power line—within the minimum clearances required under
+AS/NZS 3007;2013.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 22 - Locating and dealing with electrical faults</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for re-energising an electrical circuit at the mine that
+has been switched off by a circuit protection device.
+(2) A person may use electrical energy, other than electrical energy generated from appropriately designed test
+instruments, for locating, isolating or clearing only the following electrical faults—
+(a) an overload of an electric motor;
+(b) an earth leakage trip associated with an impedance earth circuit;
+(c) a 30mA earth leakage trip;
+(d) an earth continuity trip.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 23 - Design, installation and maintenance</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The site senior executive for a coal mine must ensure the design, installation and maintenance of electrical
+equipment and installations at the mine provide for the following—
+(a) reliable circuit interruption, under fault conditions, at all points in the mine’s electrical distribution system;
+(b) each earthing system at the mine to be of sufficiently low impedance to ensure reliable operation of all
+electrical protection systems and devices and adequate protection against indirect contact;
+(c) limiting prospective touch voltage, under fault conditions, to within acceptable limits;
+(d) minimising potential impacts from voltage rise caused by lightning strike, static electricity, voltage surges
+and other transient voltages to within acceptable limits;
+(e) preventing a person inadvertently contacting live parts of equipment or an installation exceeding extra low
+voltage.
+Example for paragraph (e)—
+The design, installation and maintenance may provide for insulation or an enclosure, shield, interlocking device
+or automatic disconnection device for the equipment or installation.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 24 - Isolators for equipment driven by electricity</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure the mine has a full current isolator for equipment
+driven by electricity at the mine.
+(2) The electrical engineering manager must ensure—
+(a) the isolator is—
+(i) clearly identified as the isolator for the equipment; and
+(ii) situated in a location that is easily accessible by a person working on the equipment; and
+(b) the equipment is clearly identified as being supplied with electricity from the isolator.
+Example of how the isolator or equipment may be identified for subsection (2)—
+by marking the isolator or equipment, or placing a notice near the isolator or equipment</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 25 - Standard for electrical control systems</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A coal mine’s electrical engineering manager must ensure—
+(a) each electrical control system at the mine operates safely under all operating conditions, including
+electricity supply instability or failure; and
+(b) if the system suffers a fault or fails, all emergency stopping systems and safety alarms at the mine remain
+effective.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 26 - Control circuits</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure a control circuit at the mine run externally to an
+enclosure from which the circuit originates—
+(a) has a voltage of not more than a nominal voltage of 55V to earth; or
+(b) is protected by earth leakage current protection of not more than 30mA sensitivity; or
+(c) minimises the risk of direct contact and limits prospective touch voltage to within acceptable limits.
+(3) An underground mine’s electrical engineering manager must ensure a control circuit for the mine is
+explosion protected, unless the whole circuit is installed and operated in a NERZ.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 27 - Modification of electrical control systems</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A coal mine’s safety and health management system must—
+(a) provide for the security and maintenance of the mine’s electrical control system software and control
+circuits; and
+(b) control modification of the software and circuits; and
+(c) provide for records to be kept of any modifications.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 28 - Electrical protection for power outlets for low voltage electrical equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure a single-phase power outlet for low voltage
+electrical equipment at the mine has—
+(a) earth leakage current protection of not more than 30mA sensitivity; or
+(b) a device preventing its use by portable electrical equipment.
+(2) Subsection (1) does not apply if the power outlet is the only outlet in an isolated electricity supply.
+(3) In this section—
+isolated electricity supply means an electricity supply—
+(a) other than the main electricity supply, that is totally insulated from conductive material; or
+(b) that is—
+(i) supplied with electricity from the main electricity supply; and
+(ii) totally isolated from the main electricity supply; and
+(iii) totally insulated from earth.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 29 - Operating times and tripping current for circuit protection devices</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure each circuit protection device at the mine has an
+appropriate operating time and tripping current, having regard to a risk assessment of the operation of the part
+of the electrical installation the device protects.
+(2) For a surface mine, the operating time may allow for a delay in cutting off the electricity supply if—
+(a) the device is installed to protect a person operating equipment; and
+(b) it is appropriate to allow the person to bring the equipment to rest before the electricity supply is cut; and
+(c) the person is immediately given a clear warning of the fault.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 30 - Changing electrical protection settings</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A person must not change an electrical protection setting for a circuit protection device at a coal mine,
+unless the person is authorised to make the change by the electrical engineering manager for the mine.
+(2) In this section—
+electrical protection setting, for a circuit protection device, means the current, voltage or operating time at
+which the device is set to trip when the device detects an electrical fault in the circuit.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 31 - Unearthed electrical installations</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager must ensure an unearthed electrical installation at the mine
+has earth fault detection and control.
+(2) Subsection (1) does not apply to a single-phase 240V generator of less than 25kW capacity at a surface
+mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 32 - Drawings of electrical installations</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a coal mine must ensure up-to-date drawings of the mine’s electrical
+installations are available for use at the mine when electrical equipment and electrical installations are
+commissioned or modified.
+(2) The drawings must be updated as soon as practicable, but not later than 8 days, after—
+(a) the commissioning of any electrical equipment or electrical installation at the mine; or
+(b) any major modification to electrical equipment or an electrical installation at the mine.
+(3) The drawings must be kept in a location that is easily accessible by each coal mine worker authorised by an
+electrical supervisor or the coal mine’s electrical engineering manager to access the drawings.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 33 - Plan of coal mine’s communication system and main</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>electrical installation
+(1) The site senior executive for a coal mine must ensure the mine
+has a plan of the mine’s main electrical installation showing
+the following—
+(a) the location of each main electricity reticulation line;
+(b) the location, rating, identifying label and purpose of
+each main isolator, substation and high voltage
+switchboard;
+(c) any information required to perform switching
+programs;
+(d) for a surface mine—the general location of each item of
+high voltage mobile plant supplied with electricity by a
+trailing cable.
+(2) The site senior executive for an underground mine must also
+ensure the mine has a plan of its communication system
+showing the location of each fixed communication device at
+the mine.
+(3) For an underground mine, the scale of each plan under this
+section must be 1:5000.
+(4) A plan under this section must be updated as soon as
+practicable, but not later than 8 days after—
+(a) for a plan of the communication system—the
+installation or removal of a communication device; or
+(b) for a plan of the main electrical installation—the
+relocation, removal or installation of a thing mentioned
+in subsection (1)(a), (b) or (d).
+(5) The site senior executive for a coal mine must ensure each
+
+plan is kept in a location at the mine that is easily accessible
+by each coal mine worker authorised by an electrical
+supervisor or the mine’s electrical engineering manager to
+access the plan.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 34 - Records</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s electrical engineering manager or, if there is no electrical engineering manager for the mine,
+the site senior executive for the mine, must ensure a record of the following matters about the mine’s electrical
+activities, equipment and installations is kept at the mine—
+(a) for each electrical installation—
+(i) its electrical protection settings, fault levels, and cable and conductor sizes and switchgear ratings, including
+circuit interrupting capacity; and
+(ii) its commissioning dates and results; and
+(iii) its monitoring and test dates and results;
+(b) for each item of electrical equipment—
+(i) its commissioning dates and results; and
+(ii) its monitoring and test dates and results;
+(c) for each item of electrical safety equipment used—
+(i) its description; and
+(ii) its test dates and results;
+(d) the name of each person appointed—
+(i) to control and manage the mine’s electrical engineering activities; or
+(ii) to carry out electrical work and electrical activities;
+(e) the name of each person authorised to enter an electrical operating area;
+(f) the activity each person mentioned in paragraph (e) is authorised to carry out in the operating area.
+(2) In this section—
+electrical operating area means an area or enclosure in which electrical equipment or an electrical installation
+is housed.
+electrical safety equipment includes an instrument for testing electrical equipment, a ladder, a safety harness,
+an insulating tool and insulating gloves.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 35 - General</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for managing emergencies at the mine.
+(2) The system must provide for the following—
+(a) identifying, by risk assessment, potential emergency situations;
+(b) minimising risks associated with potential emergency situations;
+(c) carrying out aided rescue and self-escape of persons from the mine in an emergency;
+(d) carrying out emergency exercises, including testing the effectiveness of emergency management procedures
+and the readiness and fitness of equipment for use in an emergency;
+(e) auditing and reviewing the emergency exercises;
+(f) if the mine is a surface mine—involving an open-cut examiner for the mine in—
+(i) developing and testing the emergency management procedures for activities, including mining activities, in
+and around the surface excavation at the mine; and
+(ii) auditing the documentation for the procedures;
+(g) if the mine is an underground mine—involving an ERZ controller for the mine in—
+(i) developing and testing the emergency management procedures for explosion risk zones; and
+(ii) auditing the documentation for the procedures.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 37 - Fire</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for the following at the mine—
+(a) fire prevention and control;
+(b) an effective fire fighting capability;
+(c) the safety of persons fighting fires;
+(d) a risk assessment to identify all potential fire hazards at the mine.
+(2) The system must also provide for the following—
+(a) the availability at the mine, at all times, of equipment that is appropriate and sufficient to extinguish any
+potential fire identified by the risk assessment;
+(b) the location of portable fire extinguishers on or near equipment and installations identified as potential fire
+hazards by the risk assessment;
+(c) the compatibility, throughout the mine, of all fire fighting equipment.
+(3) The coal mine must have a standard operating procedure for action to be taken when a fire is discovered at
+the mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 38 - First aid</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for first aid at the mine.
+(2) The system must provide for the following—
+(a) the supply and placement of first aid supplies and equipment, including supplies and equipment required for
+emergencies, based on a risk assessment;
+(b) appropriate first aid training, including refresher training, emphasising the safety of the person giving first
+aid as well as the safety of the person receiving first aid;
+(c) the availability of a sufficient number of persons competent in giving first aid.
+(3) For accidents involving electricity, the mine must have a standard operating procedure for the following—
+(a) releasing a person from an energised low and high voltage conductor;
+(b) resuscitating a person in an electrical environment;
+(c) managing a person’s flash burn injuries.
+(3) For accidents involving electricity, the mine must have a
+standard operating procedure for the following—
+
+(a) releasing a person from an energised low and high
+voltage conductor;
+(b) resuscitating a person in an electrical environment;
+(c) managing a person’s flash burn injuries.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 68 - Modifying plant</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for modifying fixed and mobile plant.
+(2) A coal mine’s safety and health management system must provide for the following—
+(a) recording modifications made to the plant at the mine;
+(b) updating drawings of the plant held at the mine to include the modifications;
+(c) assessing and managing risk associated with the modifications.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 69 - Pre-start warning</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) This section applies if starting fixed or mobile plant at a coal mine is likely to cause a hazard to a person
+near the plant.
+(2) The mine’s safety and health management system must provide for the plant to be fitted with a device that
+sounds a warning before the plant is started.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 78 - Isolating and tagging procedures</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for the following—
+(a)controlling the risk of an unplanned release of energy from plant, including positively isolating the energy
+source;
+(b) if an electrical or mechanical energy source is positively isolated—testing for zero potential;
+(c) taking plant out of service;
+(d) returning plant to service.
+(2) Without limiting subsection (1), the standard operating procedure may provide for the use of danger,
+isolation, operational, out of service, personal and restriction tags for particular circumstances.
+(3) If the safety or health of a person is directly affected by the operation or non-operation of plant, the
+procedure must also provide for the person to personally control, by attaching a danger tag or lock to the plant,
+the plant’s change in status from non-operational to operational.
+(4) For subsection (1)(a), the method for positively isolating the energy source for plant provided for in the
+standard operating procedure must—
+(a) for plant that is electrical equipment—be a manually initiated operation that—
+(i) isolates all active power conductors of the plant being isolated from the electricity supply; and
+(ii) prevents unintended re-energisation, including re-energisation through inadvertent operation of the plant or
+component failure; and
+(b) for other plant—be the operation of a manually operated device that—
+(i) is installed in the energy supply for the plant and, when operated, isolates the plant from its energy source;
+and
+(ii) requires a manually initiated operation for the supply of energy to the plant to be resumed; and
+(c) require the isolation device be clearly marked as being the positive means of isolating the plant.
+(5) In this section—
+isolation device means—
+(a) for plant that is electrical equipment—the device used manually to initiate the operation mentioned in
+subsection (4)(a); or
+(b) for other plant—the device mentioned in subsection (4)(b).</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 79 - Equipment used for maintaining plant</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine must have a standard operating procedure for electrical and mechanical equipment used for
+inspecting, testing and maintaining the safe operation of plant at the mine.
+(2) The procedure must provide for the following—
+(a) selecting equipment that is fit for its intended purpose;
+(b) using the equipment safely;
+(c) maintaining the equipment in accordance with its specification;
+(d) testing the equipment at appropriate intervals and labelling the equipment to show when the equipment was
+last tested.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 81 - Action to be taken if certified equipment does not meet</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>certification requirements or is likely to create an
+unacceptable level of risk
+(1) Subsection (2) applies if a nationally accredited testing station
+becomes aware that—
+(a) equipment certified by the testing station should not
+have been certified because the equipment did not meet
+the requirements for certification; or
+(b) the requirements for certification change in a way that is
+likely to create an unacceptable level of risk if
+equipment that has been certified by the testing station is
+used for the purpose for which the equipment was
+certified; or
+(c) the certification of equipment is amended, suspended or
+cancelled.
+(2) The testing station must give immediate notice of the fact to—
+(a) the manufacturer or supplier of the equipment who
+obtained the certification; and
+(b) the chief inspector.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 85A - Time and resources for carrying out tasks</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a coal mine must ensure time is allocated, and the mine’s resources are
+distributed, to enable each coal mine worker at the mine to carry out the worker’s tasks without creating an
+unacceptable level of risk.
+(2) Without limiting subsection (1), the site senior executive must ensure the coal mine worker is given the
+supervision, and help from other competent persons, necessary to achieve an acceptable level of risk.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 85B - Supervising workers</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) Without limiting section 85A(2), the site senior executive for a coal mine must ensure the coal mine’s
+activities and coal mine workers are supervised to the extent necessary to ensure each worker—
+(a) is not likely to be exposed to conditions beyond the worker’s capabilities; and
+(b) is not likely to be affected by the conditions in which the worker is working in a way that adversely affects
+the worker’s fitness to perform critical tasks; and
+(c) has the resources necessary to undertake the work without being exposed to an unacceptable level of risk;
+and
+
+(d) is working within the limits of the worker’s fitness and competence; and
+(e) complies with the worker’s safety and health obligations.
+(2) The supervision must include communication, including direct contact, between the supervisor and the coal
+mine worker at appropriate intervals.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 86 - Air conditioning units</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A coal mine’s safety and health management system must provide for maintaining and cleaning air
+conditioning units used at the mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 88 - Cutting, drilling or excavating near a concealed service</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A coal mine’s safety and health management system must provide for controlling risks from cutting or
+drilling into a building or structure, or excavating ground, at the mine where there may be a concealed service.
+(2) The system must provide for the following to minimise the uncontrolled release of non-electrical or
+electrical energy from a concealed service—
+(a) locating the energy source and placing a mark, describing the source, on or near the source;
+(b) isolating the energy source;
+(c) testing the energy source and proving the source de-energised.
+(3) The site senior executive for the coal mine must provide sufficient equipment for the matters mentioned in
+subsection (2)(a) to (c).</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 112 - Live testing electrical equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine must have a standard operating procedure for live testing electrical equipment at the mine.
+(2) The procedure must—
+(a) state—
+(i) what equipment may be live tested; and
+(ii) what instruments may be used for the testing; and
+(b) provide for the following—
+(i) isolating areas where equipment is being live tested or test run;
+(ii) using personal protective equipment;
+(iii) using high voltage test equipment and discharging stored energy after the test;
+(iv) dealing with high prospective fault currents;
+(v) other precautions to be taken for live testing.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 113 - Electrical protection for electrical distribution system</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a surface mine must ensure an earthed electrical distribution system at the mine
+has earth leakage protection.
+(2) Subsection (1) does not apply if—
+(a) persons at the mine are protected against indirect contact with the system; or
+(b) for an overhead power line—
+(i) mobile plant is not operated close to the line; and
+(ii) a risk assessment shows earth leakage protection would only minimally reduce the risk.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 114 - Electrical protection for mobile or transportable equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)This section applies to mobile or transportable equipment used at a surface mine and supplied with
+electricity by a reeling or trailing cable.
+(2)If the equipment does not have a local earthing system, the site senior executive for the mine must ensure the
+cable has an earth continuity monitoring system that cuts off the electricity supply immediately after an earth
+continuity fault is detected in the cable or equipment.
+(3)Subsection (2) does not apply if the cable—
+(a)is a low voltage cable; and
+(b)has earth leakage current protection of not more than 30mA sensitivity; and
+(c)has individually screened cores; and
+(d)has no joining plugs or sockets.
+(4)The site senior executive must ensure the electricity source for the equipment has an earth fault current
+limitation device that limits prospective touch voltage to within acceptable limits.
+(5)Subsection (4) does not apply if the equipment is low voltage equipment and persons at the mine are
+otherwise protected adequately against injury from indirect contact with electricity.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 127 - Plans of surface services</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for a surface mine must ensure current plans identifying and showing the location
+of surface services, including buried services, are kept in a location at the mine that is easily accessible by each
+coal mine worker at the mine.
+(2) In this section—
+buried service includes electricity conducted through an underground electrical cable and another service
+carried in an underground pipe.
+surface service includes the following—
+(a) a communication cable;
+(b) compressed air storage and reticulation;
+(c) diesel storage and reticulation;
+(d) an electrical cable;
+(e) an emergency access or road;
+(f) a fire fighting facility;
+(g) a first aid facility;
+(h) gas storage and reticulation;
+(i) rescue equipment;
+(j) a sewerage facility;
+(k) a water storage pipeline or drain.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 132 - Using and relocating operator-attended dredges</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine must have a standard operating procedure for using and relocating operator-attended
+dredges at the mine.
+(2) The procedure must provide for the following—
+(a) safe access to a floating pontoon;
+(b) restricting access to areas identified in a risk assessment as high risk areas;
+(c) controlling electrical trailing cables connected to the dredge;
+(d) the safety of persons near winch ropes;
+(e) using a bilge pump, including, in particular, ways to minimise the risk of reverse siphoning;
+(f) checking and recording the dredge’s freeboard;
+
+(g) maintaining and inspecting the dredge’s hulls and parts essential for flotation;
+(h) controlling risk from dredging the face;
+(i) monitoring climatic conditions and securing the dredge during adverse climatic conditions.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 135 - Using plant near electricity</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine must have a standard operating procedure for using fixed and mobile plant near electrical
+cables, overhead electrical conductors, or electrical equipment.
+(2) The procedure must provide for the following—
+(a) recording power line heights at each location where a vehicle may pass;
+(b) keeping a register of the height of vehicles and mobile plant used on site;
+(c) fixing standard travelling routes at the mine;
+(d) travelling other than on a standard travelling route;
+(e) inspecting, and reporting on, travelling routes for plant not included in the register mentioned in
+paragraph (b);
+(f) preventing incidents involving electrical contact, including, for example, by—
+(i) using barriers, signs, indicators and alarms; and
+(ii) requiring stated clearance distances between plant and electrical conductors; and
+(iii) isolating electrical conductors.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 137 - Fire detection and suppression in tunnels</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A surface mine’s safety and health management system must provide for automatically detecting combustion
+and suppressing fires in tunnels beneath stockpiles.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 144 - Lighting</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A surface mine’s safety and health management system must provide for the following—
+(a) adequate lighting, having regard to shadow, contrast and glare, in each area of the mine in which work is to
+be carried out so the work can be carried out safely;
+(b) emergency lighting to ensure that persons in a building or enclosure at the mine can safely exit if the normal
+lighting fails.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 146 - Trenches</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A surface mine’s safety and health management system must provide for protecting persons from risks from
+trenches at the mine.
+(2) The system must provide for the following—
+(a) the use of barricades;
+(b) ground support;
+(c) water ingress and hazardous atmosphere in the trench.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 152 - Limit to external surface temperature of equipment used underground</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>Unless otherwise allowed under part 8, division 5, a person must not use equipment underground if its external
+surface temperature is more than 150ºC.
+
+161Types of cap lamps
+An underground mine’s safety and health management system must provide for the following—
+(a)cap lamps for use at the mine to be of a certified type and explosion protection category Ex ia, Ex s or Ex l;
+
+(b)a record to be kept of the following for each cap lamp type in use at the mine—
+(i)its design and construction specifications;
+(ii)the manufacturer’s maintenance and testing recommendations.
+
+162Facilities and equipment for cap lamps
+The site senior executive for an underground mine must ensure—
+(a)the mine has the following facilities and equipment for cap lamps—
+(i)a lamp room;
+(ii)battery charging stations;
+(iii)cap lamp battery charging equipment;
+(iv)the correct tools and testing equipment for repairing and maintaining cap lamps; and
+(b)each battery charging station is adequately ventilated to remove gases generated by the charging.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 163 - Maintaining and testing cap lamps</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The underground mine manager for an underground mine must ensure—
+(a)each cap lamp used at the mine is operated for the minimum period stated in the standard against which the
+cap lamp is certified immediately before the cap lamp is tested; and
+(b)the cap lamp is used again only if the test shows its performance is at least 60% of the performance stated in
+the standard; and
+(c)a record is kept of results of maintenance and testing of cap lamps in use at the mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 176 - Telephonic communication</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive for an underground mine must ensure the mine’s telephonic communication
+system complies with this section and has an adequate failsafe, or backup, power supply for the system.
+
+(2)    The system’s electrical components installed underground must be suitable for use in an ERZ0, unless
+the components are installed in a drift or shaft being driven from the surface in material other than coal.
+(3)    The system must provide for effective telephonic communication to and from the following places at
+the mine—
+(a)    each entrance underground, and on the surface, through which a person may enter into a shaft or
+other excavation used for ingress to or egress from the mine workings;
+(b)    each underground battery charging station;
+(c)    each underground workshop;
+(d)    each underground crib room;
+(e)    a place close to each switchgear used to isolate or control sections of the underground main
+electricity distribution system;
+(f)    a place close to each underground conveyor belt drivehead;
+(g)    a place close to each underground loading or transfer point on the conveyor belt system;
+(h)    each emergency refuge chamber;
+(i)    a place in each inspection district in the mine not otherwise mentioned in paragraphs (a) to (h).</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 178 - Communication by notices and plans</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)The underground mine manager for an underground mine must ensure the mine has noticeboards for
+displaying safety and health notices and plans—
+(a)at the surface of the mine where coal mine workers assemble before going underground; and
+(b)in each underground crib room.
+(2)The underground mine manager must ensure the safety and health notices mentioned in subsection (3) are
+displayed at—
+(a)each place mentioned in subsection (1); and
+(b)each place containing fixed electrical equipment other than the following—
+(i)cables;
+(ii)switchgear associated with portable equipment;
+(iii)isolated remote control switches;
+(iv)lighting;
+(v)communications and signalling equipment.
+(3)For subsection (2), the safety and health notices are notices about the following—
+(a)directions for resuscitating persons suffering from electric shock;
+(b)directions for the procedure in case of fire;
+(c)a direction prohibiting a person from handling, operating or interfering with electrical equipment at the place
+unless the person—
+(i)is authorised to take the action; or
+(ii)is taking action to cut off the electricity supply in an emergency.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 179 - Safety and health management system</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>An underground mine’s safety and health management system must provide for the following—
+(a)the safe and secure location of the mine’s electrical equipment and installations;
+(b)the design and operation of liquid-filled electrical equipment.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 181 - ERZ0</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)The site senior executive for an underground mine must ensure electrical equipment installed or operated in
+an ERZ0 at the mine—
+(a)is suitable for use in an underground mine; and
+(b)is certified as having explosion protection category Ex ia, Ex s or Ex l.
+(2)Subsection (1)(b) does not apply to electrical cables that are part of an Ex ia, Ex s or Ex 1 circuit.
+(3)Also, subsection (1)(b) does not apply in relation to electrical equipment operated in a mine, or part of a
+mine, that is an ERZ0 if—
+(a)the mine, or part of the mine, has been sealed and does not have an explosive atmosphere; and
+(b)the equipment is operated for the purpose of assessing the risk of—
+(i)persons re-entering the mine or part of the mine; or
+(ii)ventilating the mine or part of the mine; and
+(c)a risk assessment is carried out before the equipment is operated in the mine, or part of the mine, to—
+(i)identify the oxygen nose point for the atmosphere in the mine or part of the mine; and
+(ii)identify hazards involved in operating the equipment in the mine or part of the mine; and
+(iii)identify ways of effectively controlling the hazards; and
+(d)the atmosphere around the equipment is continuously monitored using a gas monitoring device to detect the
+general body concentration of oxygen and methane; and
+(e)both of the following actions are taken if the general body concentration of oxygen around the equipment
+exceeds 60% of the oxygen nose point identified in the risk assessment—
+
+(i)the electrical supply to the equipment is immediately switched off;
+(ii)the equipment is immediately withdrawn to a safe location; and
+(f)any hazards identified in the risk assessment can be effectively controlled; and
+(g)any ways identified in the risk assessment of effectively controlling the hazards are implemented.
+(4)The gas monitoring device mentioned in subsection (3)(d) must automatically activate an audible or visible
+alarm when the general body concentration of oxygen exceeds 60% of the oxygen nose point identified in the
+risk assessment.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 182 - ERZ1</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)The site senior executive for an underground mine must ensure fixed, mobile and transportable electrical
+equipment installed or operated in an ERZ1 at the mine—
+(a)is suitable for use in an underground mine; and
+(b)is certified as having explosion protection.
+(2)Subsection (1) does not apply to electrical equipment associated with hot work or live testing.
+(3)Subsection (1)(b) does not apply to a power transformer, traction battery or electrical cable.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 183 - NERZ</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)The site senior executive for an underground mine must ensure fixed, mobile and transportable electrical
+equipment installed or operated in a NERZ at the mine—
+(a)is suitable for use in an underground mine; and
+(b)either—
+(i)is certified as having explosion protection; or
+(ii)has a degree of protection of, or equivalent to, at least IP55 under AS 60529—2004.
+(2)Subsection (1) does not apply to electrical equipment—
+(a)associated with hot work or live testing; or
+(b)installed in a pressurised room.
+(2A)Subsection (1)(b) does not apply to electrical cables.
+(3)In this section—
+pressurised means pressurised within the meaning of AS 2380.4—1994 ‘Electrical equipment for explosive
+atmospheres—Explosion protection techniques—Pressurized rooms or pressurized enclosures’.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 184 - Enclosures for switchgear</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The site senior executive for an underground mine must ensure each enclosure containing switchgear at the
+mine—
+(a)is suitably rated for the prospective electrical fault level at the switchgear; and
+(b)has adequate arc fault control.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 185 - Record of suitability of electrical equipment and installations</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)The electrical engineering manager for an underground mine must ensure documentation showing the use
+for which the mine’s electrical equipment and installations is suitable is kept at the mine.
+(2)For electrical equipment mentioned in section 181, 182 or 183, the documentation must include the
+certification mentioned in the section.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 186 - Live testing in an ERZ</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)A person must not live test electrical equipment or installations, including intrinsically safe electrical
+equipment and installations, in an ERZ0 at an underground mine.
+(2)An underground mine’s safety and health management system must provide for—
+(a)live testing electrical equipment and installations in an ERZ1; and
+(b)limiting the live testing to extra low voltage and low voltage; and
+(c)notice of the live testing, other than testing of intrinsically safe electrical equipment and installations, to be
+given to an inspector within 7 days after the live testing is carried out.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 187 - Live testing in a NERZ</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)An underground mine must have a standard operating procedure for live testing electrical equipment and
+installations in a NERZ.
+(2)The procedure must provide for the following—
+(a)limiting live testing to extra low voltage and low voltage electrical equipment and installations;
+(b)isolating areas where equipment is being live tested;
+(c)the type of test instruments to be used;
+(d)using high voltage test equipment and discharging stored energy after testing;
+(e)using personal protective equipment;
+(f)dealing with high prospective fault currents.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 188 - Selecting, installing and using electrical cables and</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>accessories
+An underground mine’s safety and health management system
+must provide for selecting, installing and using electrical
+cables and electrical cable accessories for use at the mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 189 - Repairing and testing reeling, trailing and feeder cables</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine’s safety and health management system
+must provide for repairing and testing reeling, trailing and
+feeder cables.
+(2) A person must not use a reeling, trailing or feeder cable at an
+underground mine if the cable—
+(a) has been found to be defective; and
+(b) has not been effectively repaired and tested under the
+system.
+(3) Subsection (2) does not apply if—
+(a) only the outer sheath of the cable is damaged; and
+(b) before the cable is used, the sheath is repaired in a way
+that satisfies a competent person that the cable can be
+used without creating an unacceptable level of risk.
+(4) In this section—
+competent person means a person who is competent in
+assessing the level of risk from a damaged cable.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 190 - Circuit separation</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The electrical engineering manager for an underground mine
+must ensure each electrical circuit supplying the mine’s
+underground electrical distribution system, ventilation system
+or winding or haulage system is designed so an electrical fault
+on 1 circuit will not affect another circuit.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 191 - Earth fault current limitation</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The electrical engineering manager for an underground mine
+must ensure each electrical circuit at the mine has an earth
+fault current limitation of not more than—
+(a) for a circuit supplying equipment and cables in an ERZ1
+at the mine—5A; or
+(b) for a high voltage circuit not mentioned in
+paragraph (a)—10A; or
+(c) for a low voltage circuit not mentioned in
+paragraph (a)—5A.
+(2) Subsection (1) does not apply to the following—
+(a) an intrinsically safe circuit;
+(b) a circuit operating at not more than 55V to earth and
+fully contained in a NERZ or an explosion-protected
+enclosure;
+(c) a circuit isolated from earth.
+(3) The electrical engineering manager must ensure—
+(a) the neutral point of a transformer secondary winding for
+an impedance earthed electrical system at the mine is
+distributed to only the neutral earthing impedance; and
+(b) each part of an impedance earthed, or insulated neutral,
+electrical system at the mine has a phase-to-earth
+insulation level equivalent to the phase-to-phase
+insulation level for the electrical system.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 192 - Earth leakage protection</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The electrical engineering manager for an underground mine
+must ensure each electrical circuit at the mine operating above</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 55V - to earth has earth leakage protection with a rated tripping</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>current of not more than—
+(a) for a circuit supplying equipment and cables in an
+ERZ1—500mA; or
+(b) for a high voltage circuit not mentioned in
+paragraph (a)—1A; or
+(c) for a low voltage circuit not mentioned in
+paragraph (a)—500mA.
+(2) The electrical engineering manager must ensure the operating
+time ensures the device cuts off the electricity supply to
+equipment and cables in an ERZ1, or causes the supply to be
+
+cut off, as soon as practicable after the device detects an
+electrical fault in the circuit.
+(3) The electrical engineering manager must ensure each circuit
+supplying portable electrically operated handheld plant—
+(a) operates at not more than 250V; and
+(b) has earth leakage current protection of not more than
+30mA sensitivity.
+(4) The site senior executive for the mine must ensure—
+(a) each circuit supplying a reeling, trailing or feeder cable
+has—
+(i) earth continuity protection; and
+(ii) a lockout earth fault current protection device; and
+(b) if the device is for equipment used in an ERZ1—the
+device is intrinsically safe.
+(5) Subsection (1) does not apply to the following—
+(a) an intrinsically safe circuit;
+(b) a circuit operating at not more than 55V to earth and
+fully contained in a NERZ or an explosion-protected
+enclosure;
+(c) a circuit isolated from earth.
+(6) In this section—
+rated tripping current means the electrical current at which
+the circuit breaker is set to trip.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 193 - Testing earth leakage protection and earth continuity</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>protection
+The electrical engineering manager for an underground mine
+must ensure electrical equipment at the mine having an earth
+leakage protection device, or an earth continuity protection
+device, has an easily accessible external test button on the
+equipment for effectively testing the device.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 194 - Limitation on earthing conductor’s current</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The electrical engineering manager for an underground mine
+must ensure an earthing conductor at the mine is not used to
+carry an electrical circuit’s normal current.
+(2) Subsection (1) does not apply if the conductor is used for
+earth continuity protection and as a lockout earth fault current
+protection device.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 195 - Earthing electrodes</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The electrical engineering manager for an underground mine
+must ensure earthing electrodes installed for the underground
+electrical distribution system’s connection to earth are located
+at the surface of the mine.
+(2) If the mine has more than 1 electrical distribution system, the
+mine’s safety and health management system must provide for
+the prospective touch voltage at the mine to be limited to a
+level necessary to achieve an acceptable level of risk.
+(3) The electrical engineering manager must ensure the ohmic
+resistance of an earthing electrode assembly for the
+underground electrical distribution system is kept as low as
+practicable and does not exceed 1 ohm.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 197 - Battery-powered vehicles</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine’s safety and health management system
+must provide for selecting, constructing, installing and
+maintaining battery-powered vehicles used at the mine.
+(2) The site senior executive for the mine must ensure a
+non-explosion-protected battery-powered vehicle is used—
+(a) only in a NERZ; and
+(b) only if the vehicle’s access into an ERZ0 or ERZ1 is
+prevented by a system that is either fail safe or includes
+multiple redundancy devices.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 198 - Traction battery powered vehicles</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The site senior executive for an underground mine must
+ensure—
+(a) a vehicle powered by a traction battery and used at the
+mine is fitted with a detector for, and protection from,
+battery earth leakage current; and
+(b) the traction battery is adequately ventilated to prevent
+accumulations of explosive mixtures of hydrogen and
+air forming in the battery’s immediate vicinity.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 200 - Switching and isolating electricity supply</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The underground mine manager for an underground mine
+must ensure the mine has, at each place where persons enter
+underground from the surface—
+(a) a suitable communication method for advising a person
+to switch off the electricity supply to underground
+electrical equipment and cables; or
+(b) a way to switch off the electricity supply.
+(2) The electrical engineering manager must ensure a notice
+giving instructions for subsection (1)(a) and (b) is placed on
+the noticeboard—
+
+(a) at the surface of the mine where coal mine workers
+assemble before going underground; and
+(b) in each underground crib room.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 201 - Using fibre optics</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>An underground mine’s safety and health management system
+must provide for the safe use of fibre optic equipment at the
+mine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 202 - Using portable electrical equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine’s safety and health management system
+must provide for using certified and uncertified portable
+electrical equipment, other than portable gas detectors, in an
+ERZ1.
+(2) The mine must have a standard operating procedure for using
+certified and uncertified portable electrical equipment, other
+than portable gas detectors, in a NERZ.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 222 - Gas monitoring system</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine’s safety and health management system
+must provide for a gas monitoring system complying with this
+section.
+(2) The gas monitoring system must provide for the following—
+(a) continuous monitoring of the mine atmosphere at the
+return airway of each ventilation split, to detect
+methane, carbon monoxide, carbon dioxide and oxygen;
+(b) automatically detecting or calculating the values and
+trends of the following—
+(i) gas concentrations;
+(ii) the ratio of carbon monoxide and oxygen
+deficiency (commonly known as Graham’s ratio);
+(iii) the ratio of carbon monoxide and carbon dioxide;
+(iv) gas explosibility;
+(c) automatically activating an alarm if a gas alarm level is
+exceeded;
+(d) recording the values and trends mentioned in
+paragraph (b) and displaying the record—
+(i) at the surface of the mine where the record can be
+easily accessed by coal mine workers; and
+(ii) in a way that the record can be easily read by the
+workers;
+(e) keeping the information on which the values and trends
+mentioned in paragraph (d) were based at the mine in a
+way that enables the information to be easily accessed
+and inspected.
+(3) The gas monitoring system must also provide for—
+
+(a) an alternative electricity supply to ensure the system
+continues to function if the normal electricity supply
+fails; and
+(b) electrical equipment installed and operated underground
+for the system to have the following explosion
+protection category—
+(i) for equipment other than a gas detector head—Ex
+ia;
+(ii) for a gas detector head—Ex ia or Ex s.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 223 - Monitoring and sampling mine atmosphere</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine’s safety and health management system
+must provide for continuous monitoring of the mine
+atmosphere, using the mine’s gas monitoring system, at the
+return airway of each ventilation split.
+(1A) The safety and health management system must also provide
+for sampling of the mine atmosphere, using the mine’s gas
+monitoring system, at each of the following places—
+(a) the return airway from each goaf area and each set of
+workings;
+(b) the return of each airway at the upcast shaft;
+(c) other places stated in the mine’s principal hazard
+management plan for gas monitoring as places where
+gas monitoring must be carried out.
+(1B) The safety and health management system must also provide
+for—
+(a) continuous monitoring, using the mine’s gas monitoring
+system, to detect products of combustion in the mine
+atmosphere at the return side of each conveyor belt; and
+(b) when the products are detected, the automatic activation
+of an alarm located on the surface in a position that is
+generally, under observation to warn persons of the
+products’ presence.
+(2) The safety and health management system must also provide
+for a regularly updated plan to be kept at the mine showing the
+location of—
+(a) the sampling point for each of the places mentioned in
+subsections (1), (1A) and (1B); and
+(b) each of the mine’s ventilation control devices designated
+under section 351(1).
+(3) A person must not relocate equipment used for sampling
+without the mine’s ventilation officer’s authorisation.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 224 - Gas alarm levels</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine’s principal hazard management plan for
+gas management must state the values and ratios for gas,
+mentioned in section 222(2)(b), that are gas alarm levels.
+(2) The mine must have a standard operating procedure for
+changing the gas alarm levels, including recording the
+following details—
+(a) the nature of, and reason for, the change;
+(b) the date the change was made;
+(c) the name of the person who made the change.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 225 - Changing gas alarm level settings</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>A person must not change a gas alarm level setting for an
+underground mine without the mine’s ventilation officer’s
+authorisation.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 226 - Acknowledging alarms</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine must have a standard operating
+procedure for acknowledging alarms that are activated when
+gas alarm levels are exceeded.
+(2) The procedure must provide for at least 1 person to be—
+(a) on the surface when a person is underground; and
+(b) authorised by the underground mine manager for the
+mine to acknowledge the alarms.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 227 - Portable gas detectors</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The site senior executive for an underground mine must
+ensure—
+(a) the mine has a sufficient number of portable gas
+detectors capable of detecting the presence of methane,
+carbon monoxide and oxygen in the mine atmosphere;
+and
+(b) each portable gas detector used at the mine is certified
+as—
+(i) suitable for use in an underground mine; and
+(ii) having the following explosion protection
+category—
+(A) for parts of the detector other than the gas
+detector head—Ex ia;
+(B) for the gas detector head—Ex ia or Ex s; and
+(iii) capable of detecting the type of gas for which the
+detector is intended to be used; and
+(iv) being accurate and reliable.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 228 - Providing portable gas detectors</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The underground mine manager for an underground mine
+must ensure each person appointed under section 60(8) or (9)
+of the Act for the mine is provided with a portable gas
+detector.
+(2) The underground mine manager may provide a portable gas
+detector to a person, other than a person appointed under
+section 60(8) or (9) of the Act, only if the person is—
+(a) appointed by the underground mine manager to use the
+detector; and
+(b) competent in its use.
+(3) A person provided with a portable gas detector for an
+underground mine must keep the detector in the person’s
+possession or under the person’s direct control while the
+detector is in use underground.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 229 - Fixed methane detectors</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) This section applies to a fixed methane detector at an
+underground mine that is—
+(a) fitted to equipment; or
+(b) a self-contained unit located at a particular place; or
+(c) part of the gas monitoring system.
+(2) The site senior executive for the mine must ensure that if the
+detector malfunctions or fails the detector will
+automatically—
+(a) cause the equipment, or part of the equipment, the
+detector is monitoring to shut down; and</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 231 - Auxiliary or booster fan</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An auxiliary or booster fan must be protected by at least 1
+methane detector to detect the general body concentration of
+methane at the fan.
+(2) For an auxiliary fan, the detector must be an automatic
+methane detector that trips the electricity supply to the fan
+when the concentration exceeds 2%.
+(3) For a booster fan, the detector must, when the concentration
+exceeds 1.25%, automatically activate an audible and visible
+alarm located in a place that allows the necessary action to be
+taken promptly.
+(4) If the detector protecting an auxiliary fan fails or is otherwise
+non-operational, the underground mine manager must ensure
+that, while the fan is operating, a person—
+(a) continuously monitors the general body concentration
+of methane at the fan by using a portable methane
+detector that gives an audible and visible alarm when the
+concentration exceeds 1.25%; and
+
+(b) disconnects the electricity supply to the fan when the
+concentration exceeds 1.25%.
+(5) This section does not apply to an auxiliary or booster fan for a
+drift or shaft being driven from the surface in material other
+than coal.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 232 - Main exhausting fan</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The ventilating air passing through a main exhausting fan
+must be monitored by at least 1 automatic methane detector to
+detect the air’s general body concentration of methane.
+(2) The detector must automatically activate a visible alarm when
+the concentration exceeds the percentage stated in the mine’s
+principal hazard management plan for ventilation as the
+percentage that must not be exceeded before the detector
+activates the alarm.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 233 - Coal cutter, continuous miner, tunnel boring and road</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>heading machine
+(1) A coal cutter, continuous miner, tunnel boring or road heading
+machine must be fitted with at least 1 automatic methane
+detector to detect the methane concentration near the cutters.
+(2) If the machine is fitted with only 1 automatic methane
+detector, the detector must automatically—
+(a) activate a visible alarm to warn the operator when the
+concentration exceeds 1%; and
+(b) trip the electricity supply to the machine when the
+concentration exceeds 2%.
+
+(3) If the machine is fitted with more than 1 automatic methane
+detector—
+(a) a detector fitted to detect the methane concentration near
+the cutters must automatically—
+(i) activate a visible alarm to warn the operator when
+the concentration exceeds 1%; and
+
+(ii) trip the electricity supply to the cutters when the
+concentration exceeds 2%; and
+(b) a detector fitted to detect the general body concentration
+of methane around the machine must automatically—
+(i) activate a visible alarm to warn the operator when
+the concentration exceeds 1%; and
+(ii) trip the electricity supply to the machine when the
+concentration exceeds 2%.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 234 - Longwall shearer</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A longwall shearer must be fitted with at least 1 automatic
+methane detector to detect the general body concentration of
+methane around the machine.
+(2) The detector must automatically—
+(a) activate a visible alarm to warn the operator when the
+concentration exceeds 1%; and
+(b) trip the electricity supply to—
+(i) the cutters when the concentration exceeds 1.25%;
+and
+(ii) the machine when the concentration exceeds 2%.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 234A - Armoured face conveyor</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An armoured face conveyor must be fitted with at least 1
+automatic methane detector on each electrically-powered
+tailgate drive motor to detect the general body concentration
+of methane at the tailgate drive motor.
+(2) The detector must automatically—
+(a) activate a visible alarm to warn the operator when the
+concentration exceeds 1%; and
+(b) trip the electricity supply to the armoured face conveyor
+and the longwall shearer cutters when the concentration
+exceeds 2%.
+Note—
+See section 393.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 235 - Mobile bolting machine</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) A mobile bolting machine must be fitted with at least 1
+automatic methane detector to detect the general body
+concentration of methane around the machine.
+(2) The detector must automatically—
+(a) activate a visible alarm to warn the operator when the
+concentration exceeds 1%; and
+(b) trip the electricity supply to the machine when the
+concentration exceeds 2%.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 236 - Explosion-protected electrically-powered loader</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An explosion-protected electrically-powered loader must be
+fitted with at least 1 automatic methane detector to detect the
+general body concentration of methane around the machine.
+(2) The detector must automatically—
+(a) activate a visible alarm to warn the operator when the
+concentration exceeds 1%; and
+(b) trip the electricity supply to the loader when the
+concentration exceeds 2%.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 237 - Explosion-protected load-haul dump vehicle powered by</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>a battery or internal combustion engine
+(1) This section applies to an explosion-protected load-haul dump
+vehicle powered by a battery or an internal combustion
+engine.
+(2) The vehicle must be fitted with at least 1 automatic methane
+detector to detect the general body concentration of methane
+around the vehicle.
+(3) The detector must automatically—
+(a) activate a visible alarm to warn the operator when the
+concentration exceeds 1%; and
+(b) either—
+(i) trip the electricity supply to the vehicle’s electrical
+motors when the concentration exceeds 2%; or
+(ii) stop the vehicle’s internal combustion engine when
+the concentration exceeds 1.25%.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 238 - Other explosion-protected plant powered by battery or</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>internal combustion engine
+(1) Battery, or internal combustion engine, powered
+explosion-protected plant, other than a load-haul dump
+vehicle, must be fitted with at least 1 automatic methane
+detector to detect the general body concentration of methane
+around the plant.
+(2) The detector must automatically—
+(a) activate a visible alarm to warn the operator when the
+concentration exceeds 1%; and
+(b) either—
+(i) trip the electricity supply to the plant’s electrical
+motors when the concentration exceeds 2%; or
+(ii) stop the plant’s internal combustion engine when
+the concentration exceeds 1.25%.
+(3) This section does not apply to plant that is being operated—
+(a) by a person using a portable methane detector that gives
+an audible and visible alarm when the concentration
+exceeds 1% and 1.25%; and
+(b) in a location inspected periodically by a person using a
+portable methane detector.
+(4) In this section—
+periodically, for inspecting plant in a location in an ERZ1,
+means at least twice during a shift at approximately evenly
+spaced intervals.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 240 - Non-explosion-protected plant</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) This section applies to non-explosion-protected plant, other
+than portable plant, powered by a battery or an internal
+combustion engine.
+(2) The plant must be fitted with at least 1 automatic methane
+detector to detect the general body concentration of methane
+around the plant.
+(3) The detector must automatically—
+(a) activate—
+(i) a visible alarm to warn the operator when the
+concentration exceeds 0.25%; and
+(ii) an audible or visible alarm to warn the operator
+when the detector fails in service; and
+(b) trip the electricity supply to the plant’s electrical motors
+or stop its internal combustion engine—
+(i) when the concentration exceeds 0.5%; and
+(ii) within 3 minutes after the detector fails in service.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 242 - Intake airways</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) At least 1 automatic methane detector must be located in each
+intake airway at the interface between—
+(a) a NERZ and ERZ1; and
+(b) 2 NERZs.
+Example of interface between 2 NERZs—
+the interface between subdivided parts of a NERZ
+(2) A detector located at an interface between a NERZ and ERZ1
+must—
+(a) when the general body concentration of methane
+detected at the interface exceeds 0.25%—automatically
+activate a visible alarm; and
+(b) when the general body concentration of methane
+detected at the interface exceeds 0.5%—automatically
+trip the electricity supply to non-intrinsically safe plant
+in—
+(i) the ERZ1 and NERZ; or
+(ii) if the NERZ has been subdivided—the ERZ1 and
+the subdivided part of the NERZ adjacent to the
+ERZ1.
+(3) A detector located at the interface between a NERZ and an
+ERZ1 must be a self-contained unit or part of the gas
+monitoring system for the mine.
+(4) A detector located at an interface between 2 NERZs must—
+(a) automatically activate a visible alarm when the general
+body concentration of methane detected at the interface
+exceeds 0.25%; and
+(b) if the NERZ has been subdivided—automatically trip
+
+the electricity supply to non-intrinsically safe plant in
+the adjacent subdivided part when the general body
+concentration of methane detected at the interface
+exceeds 0.5%.
+(5) The alarm mentioned in subsection (2)(a) or (4)(a) must be
+visible at the interface.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 243A - Longwall return airway generally</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) This section applies—
+(a) in relation to a longwall return airway; and
+(b) in addition to the requirements under section 243.
+(2) At least 1 automatic methane detector must be located—
+(a) in the longwall return airway; and
+(b) within 150m outbye of the corner of the tailgate block
+side rib line and the longwall coal face; and
+(c) so as to measure the general body concentration of
+methane in the longwall return airway from—
+(i) the longwall face; and
+(ii) the goaf.
+(3) The detector must automatically—
+(a) activate a visible alarm when the general body
+concentration of methane detected in the return air
+exceeds the percentage stated in the mine’s principal
+hazard management plan for ventilation as the
+percentage that must not be exceeded before the
+detector activates the alarm; and
+(b) trip the electricity supply to the following equipment
+when the general body concentration of methane
+detected in the return air exceeds 2%—
+(i) the armoured face conveyor;
+(ii) the longwall shearer cutters;
+(iii) the longwall equipment in the longwall return
+airway.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 243B - Longwall return airway</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) This section applies in addition to the requirements under
+section 243.
+(2) At least 1 methane detector must be located in each of the
+following places—
+(a) a longwall return airway that is an ERZ0 (a relevant
+zone), if a machine can physically pass through a
+boundary between—
+(i) a NERZ and the ERZ0; or
+(ii) an ERZ1 and the ERZ0;
+(b) a longwall return airway that is an ERZ1 (also a relevant
+zone), if a machine can physically pass through a
+
+boundary between—
+(i) a NERZ and the ERZ1; or
+(ii) another ERZ1 and the ERZ1.
+(3) The detector must automatically activate a visible alarm on
+the intake side of each access leading into the relevant zone
+when the general body concentration of methane detected in
+the return air exceeds 1%.
+Note— See section 396.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 244 - Intake airway intersecting with longwall face</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) At least 1 automatic methane detector must be located at the
+intersection between a longwall face and an intake airway.
+(2) A detector located at the intersection between a longwall face
+and an intake airway must automatically—
+(a) activate a visible alarm when the general body
+concentration of methane detected at the intersection
+exceeds 1%; and
+(b) trip the electricity supply to longwall equipment in the
+longwall face and intake airway when the general body
+concentration of methane detected at the intersection
+exceeds 2%.
+Note— See section 394.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 245 - Explosion-protected electrically-powered loader</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>If a general body concentration of methane exceeding 1.25%
+is detected around an explosion-protected
+electrically-powered loader that is not fitted with an automatic
+methane detector, the loader’s operator must switch off the
+electricity supply to the loader’s trailing cable.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 246 - Explosion-protected vehicle powered by a battery or</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>internal combustion engine
+(1) This section applies to an explosion-protected vehicle—
+(a) powered by a battery or an internal combustion engine;
+and
+(b) fitted with 1 automatic methane detector.
+(2) If a general body concentration of methane of at least 1% is
+detected around the vehicle, the vehicle’s operator must
+immediately withdraw the vehicle to a place where the
+general body concentration of methane is less than 1%.
+(3) If a general body concentration of methane of at least 1.25%
+is detected around a vehicle constructed before 1 July 2001
+that is not fitted with a methane detector, the vehicle’s
+operator must immediately switch off the electrical motors or
+internal combustion engine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 248 - Non-explosion-protected vehicle powered by a battery or</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>an internal combustion engine
+If the automatic methane detector fitted to a
+non-explosion-protected vehicle powered by a battery or an
+internal combustion engine fails in service, the vehicle’s
+operator must immediately park the vehicle.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 250 - Action to be taken if methane detector activates or is</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>non-operational
+(1) An underground mine must have a standard operating
+procedure for taking action when any of the following
+happens—
+(a) an automatic methane detector fitted to a machine,
+vehicle or plant to which any of sections 233 to 239
+applies—
+(i) trips the electricity supply to the machine, vehicle
+or plant; or
+(ii) stops its internal combustion engine;
+(b) a methane detector mentioned in paragraph (a), other
+than a methane detector fitted to a longwall shearer, fails
+in service;
+(c) a methane detector located as required under
+section 242, 243, 243A, 243B or 244—
+(i) fails in service; or
+(ii) is being tested or relocated.
+(2) The procedure must provide that, if an event mentioned in
+subsection (1)(a) or (b) happens in relation to a methane
+detector fitted to a machine or vehicle (other than a longwall
+shearer or armoured face conveyor) in an ERZ1, the methane
+detector may be temporarily overridden to allow the machine
+or vehicle to be moved, but only if—
+(a) the general body concentration of methane around the
+machine or vehicle is less than 1.25%; and
+(b) a portable methane detector is used to continuously
+monitor the concentration.
+(3) The procedure must also provide that if an event mentioned in
+subsection (1)(b) happens in relation to a methane detector
+fitted to a longwall shearer as mentioned in section 234, the
+methane detector may be temporarily overridden to allow the
+longwall shearer to be operated to allow movement to a secure
+place along the face or at the gate ends, but only if—
+(a) the general body concentration of methane around the
+longwall shearer is less than 1.25%; and
+(b) a portable methane detector is used to continuously
+monitor the concentration.
+(4) The procedure must also provide that, if an event mentioned
+
+in subsection (1)(b) happens in relation to a methane detector
+fitted to a relevant machine or relevant vehicle (other than an
+armoured face conveyor) being used in a NERZ, the operator
+may continue to use the machine or vehicle only if—
+(a) the general body concentration of methane around the
+machine or vehicle is less than 0.5%; and
+(b) the place where the machine or vehicle is located is
+continuously monitored by a person using a portable
+methane detector.
+(5) The procedure must also provide that, if an event mentioned
+in subsection (1)(c) happens in relation to a methane detector
+located as required under section 243, 243A or 244, the
+methane detector must be replaced or repaired immediately.
+(6) The procedure must also provide that, if an event mentioned
+in subsection (1)(c) happens in relation to a methane detector
+located as required under section 242 or 243B—
+(a) the methane detector must be replaced or repaired as
+soon as practicable; and
+(b) for a methane detector located in an intake airway at the
+interface between the zones as mentioned in
+section 242(1)(a) or (b)—the methane detector may be
+overridden temporarily to allow operations to continue
+in the zones until the detector is replaced or repaired, but
+only if the conditions mentioned in subsection (7) are
+complied with.
+(7) For subsection (6)(b), the conditions are—
+(a) a person uses a portable methane detector to
+continuously monitor for methane—
+(i) if the event involves 1 methane detector—at the
+location of the methane detector; or
+(ii) if the event involves more than 1 methane detector
+at an interface—by moving between the methane
+detectors at the interface that have failed or are
+being tested or relocated; and
+(b) the electricity supply to the affected zones can be readily
+tripped when the general body concentration of methane
+at the location of a methane detector being monitored as
+required under paragraph (a) exceeds 0.5%.
+(8) In this section—
+relevant machine means a machine supplied with electricity
+by a trailing cable.
+relevant vehicle means an explosion-protected vehicle
+powered by a battery or an internal combustion engine.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 254 - Using aluminium alloys underground</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The underground mine manager for an underground mine
+must ensure an exposed aluminium alloy is not used
+underground at the mine if the alloy contains more than 6% by
+mass of combined magnesium and titanium.
+(2) The underground mine manager must also ensure external
+rotating or reciprocating parts of plant used underground are
+not constructed of alloys containing more than 0.6%
+magnesium and titanium combined.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 255 - Standard operating procedure</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine must have a standard operating
+procedure for the following—
+(a) storing, transporting, handling and using aluminium
+alloy objects and equipment underground;
+(b) disposing of aluminium alloy objects and equipment.
+(2) Without limiting subsection (1), the procedure must have
+regard to the explosive or combustible nature of accumulated
+aluminium alloy dust.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 256 - Belt conveyors</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>The site senior executive for an underground mine must
+ensure each belt conveyor used at the mine has the following
+features—
+(a) an emergency stop system capable of being activated
+from any point along the length of the conveyor where
+persons have access;
+(b) certified fire resistant and antistatic conveyor belting
+and drum lagging.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 259 - Compressed air equipment</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) An underground mine’s safety and health management system
+must provide for managing risk from using compressed air
+underground.
+Example of how the risk may be managed—
+by locating compressors on the surface
+(2) The system must provide for the electrical bonding to earth of
+compressed air equipment, hoses and pipes that are likely,
+during operation, to develop static electrical charges capable
+of causing an electric shock to a person or a spark.
+Examples of hoses and pipes likely to develop static electrical charges—</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 1 - ventilation ducting</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre></pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 2 - a hose that is not antistatic</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(3) This section does not apply to hoses used in the control
+system of a diesel engine using filtered air.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 355 - Auxiliary fans</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The ventilation officer for an underground mine must ensure
+an auxiliary fan used at the mine is located and operated in a
+way that prevents air recirculating through the fan.
+(2) The ventilation officer must ensure the minimum quantity of
+air flowing in any panel at the mine is the sum of—
+(a) the open circuit capacity of each auxiliary fan in
+operation in the panel; and
+(b) 30% of the open circuit capacity of the largest auxiliary
+fan in operation in the panel.
+(3) The site senior executive for the mine must ensure an
+auxiliary fan, other than a compressed air powered auxiliary
+fan, used at the mine is capable of switching off automatically
+if the main ventilation system fails totally.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 357 - Monitoring fans</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1) The site senior executive at an underground mine must ensure
+each fan installed on the surface, and each booster fan
+installed below ground, at the mine as part of the mine’s
+ventilation system, is fitted with the following—
+(a) an equipment condition monitoring device;
+(b) a device capable of continuously monitoring and
+recording the fan’s static pressure.
+(2) The site senior executive must ensure each device mentioned
+in subsection (1) operates in a way that, if the device detects a
+significant departure from the fan’s normal operating
+parameters, the device—
+(a) first, triggers a visible alarm; and
+(b) second, trips the electricity supply to the fan; and
+(c) records the date and time of the action mentioned in
+paragraphs (a) and (b).
+(3) The site senior executive must ensure the part of the device
+displaying the results of the monitoring is located where the
+part is easily accessible by a person whose task includes
+checking the condition of the fan.</pre>
+</details>
+<details class="item" data-kind="underground">
+  <summary><span>Section 370A - Activity that is not an on-site activity—Act, s 10</span><small>Coal Mine Safety and Health Regulation 2017</small></summary>
+  <pre>(1)For section 10(2)(g) of the Act, an activity performed by an electricity entity, in relation to its works, and for
+the purpose of supplying electricity, is not an on-site activity.
+(2)In this section—
+electricity entity has the meaning given by the Electrical Safety Act 2002.
+works, of an electricity entity, has the meaning given by the Electrical Safety Act 2002, section 25.</pre>
+</details>
       </section>
     </div>
   </main>
 
   <footer>
-    <div class="wrap">
-      <span>Prepared for GitHub Pages. Keep this index.html file at the repository root and the PDFs inside the pdfs folder.</span>
-    </div>
+    <div class="wrap">For GitHub Pages: place this <strong>index.html</strong> at the repository root, with the <strong>pdfs</strong> folder beside it.</div>
   </footer>
+
+  <script>
+    const counts = { surface: 48, underground: 111 };
+    const labels = { surface: 'Surface EEM', underground: 'Underground EEM' };
+    let active = 'surface';
+    const search = document.getElementById('search');
+    const summary = document.getElementById('summary');
+
+    function update() {
+      document.querySelectorAll('.panel').forEach(panel => panel.classList.toggle('hidden', panel.id !== active));
+      document.querySelectorAll('[data-tab]').forEach(btn => btn.classList.toggle('active', btn.dataset.tab === active));
+      const term = search.value.trim().toLowerCase();
+      let shown = 0;
+      document.querySelectorAll(`#${active} .item`).forEach(item => {
+        const match = !term || item.innerText.toLowerCase().includes(term);
+        item.classList.toggle('hidden', !match);
+        if (match) shown += 1;
+      });
+      summary.textContent = term
+        ? `Showing ${shown} matching sections in ${labels[active]}.`
+        : `Showing ${labels[active]}: ${counts[active]} sections.`;
+    }
+
+    document.querySelectorAll('[data-tab]').forEach(btn => {
+      btn.addEventListener('click', () => { active = btn.dataset.tab; update(); });
+    });
+    search.addEventListener('input', update);
+  </script>
 </body>
 </html>
